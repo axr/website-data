@@ -1,5 +1,9 @@
 AXR Project website data
 ------------------------
+
+IMPORTANT NOTICE: This system is still in process of being built and the data in
+this repository is currently not used by the production environment.
+
 This repository contains the AXR Project website pages, blog posts, wiki pages,
 HSS documentation pages and other content.
 
@@ -54,10 +58,17 @@ The directory structure:
 		file: (string) name of the content file. this file can reside in a
 			subdirectory. default: `content.md`,
 
-		Fields specific to `blog_post` type:
+		Fields specific to `blog-post` type:
 		date: (string) date in UTC in `YYYY-MM-DD` format (ISO 8601),
-		author_name: (string) author's real name
+		author_name: (string) author's real name,
+		summary_file: (string) name of the file that contains the summary about
+			the post. this file can reside in a subdirectory.
 	}
+
+Notes specific to `blog-post` type:
+If no summary file is specified, you can insert `<!--more-->` anywhere in the
+content file and everything about that will be automatically used as the
+summary.
 
 ### release-$VERSION.json
 
