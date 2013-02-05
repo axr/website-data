@@ -1,17 +1,17 @@
 This is a place for collaboration, sharing and discovering. Please read our
 [wiki conventions](/wiki-conventions) page before you edit or create a new page.
 
-This wiki is mainly composed of three areas: [Prototype wiki](/list-pages:/prototype),
-[Specificaton wiki](/list-pages:/specification) and [Website wiki](/list-pages:/website).
-A list of all the categories can be found by [clicking here](/list-pages:/).
+This wiki is mainly composed of three areas: [Prototype wiki](/index/prototype),
+[Specificaton wiki](/index/specification) and [Website wiki](/index/website).
+A list of all the categories can be found by [clicking here](/index).
 
 You can read some [Ideas](/ideas) our users proposed for AXR.
 
 ## Build instructions
-[Build instructions](/developers/building)
+[Build instructions](/prototype/building)
 
 ## Layout tests
-Read about them here: [Layout tests](/layout-tests)
+Read about them here: [Layout tests](/prototype/layout-tests)
 
 ## Meeting topics
 Each week we propose new topics for the IRC meeting that is held every sunday,
