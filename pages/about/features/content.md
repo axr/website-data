@@ -7,7 +7,7 @@ knowledge and experience of today’s technologies, it aims to make the lives of
 web designers and developers easier by providing advanced tools to help them
 build cool stuff with ease.
 
-<img src="http://static.axr.vg/images/features/patches2new_ideas.png" alt="From patches to new ideas" class="alignRight" />
+<img src="patches2new_ideas.png" alt="From patches to new ideas" class="alignRight" />
 
 We propose a different, yet familiar alternative to current web standards. It
 will adapt older features which proved to be good and rethink the weaknesses.
@@ -20,8 +20,8 @@ instead of CSS, whose syntax is derived from the latter, with advanced new
 features such as object orientation, references, mathematical expressions, new
 streamlined selectors, filters, behaviors, etc.
 
-<img src="http://static.axr.vg/images/features/html2xml.png" alt="From HTML to XML" />
-<img src="http://static.axr.vg/images/features/css2hss.png" alt="From CSS to HSS" class="alignRight" />
+<img src="html2xml.png" alt="From HTML to XML" />
+<img src="css2hss.png" alt="From CSS to HSS" class="alignRight" />
 
 ## Unified rendering engine
 
@@ -35,7 +35,7 @@ capability, allowing web designers and developers to use the latest features
 independent of browser client or version, thus delivering the same new content
 to all users on all platforms.
 
-<img src="http://static.axr.vg/images/features/axr4all.jpg" alt="One central library for all browsers" class="alignCenter" />
+<img src="axr4all.jpg" alt="One central library for all browsers" class="alignCenter" />
 
 Until browser developers decide to include the AXR core library into their own
 software, it will be implemented as a plug-in, using NPAPI for most browsers and
@@ -49,7 +49,7 @@ and to be distributed at first.
 
 ## Advanced Features
 
-<img src="http://static.axr.vg/images/features/expressions.jpg" alt="E = m c squared - Methaphor for expressions in HSS" class="alignLeft"  />
+<img src="expressions.jpg" alt="E = m c squared - Methaphor for expressions in HSS" class="alignLeft"  />
 
 HSS, the new programming language, will provide many advanced features, while
 still using an easy-to-learn syntax, reminiscent of CSS. We will try to fulfill
