@@ -94,17 +94,18 @@ summary.
 A valid version number is a string consisting of between 2 and 4 dot-separated
 integers. Example: `1.0.7`.
 
+
 ### hssdoc/.../property-$PROPERTY_NAME.json
 
 	{
 		property: (string) name of the property,
-		readonly: (int) boolean,
+		readonly: (int) boolean. default: 0,
 		description_file: name of the content file. this file can reside in a
-			subdirectory,
+			subdirectory. this field is optional,
 		values: [
 			{
 				value: (string),
-				is_default: (int) boolean,
+				is_default: (int) boolean. default: 0,
 				since_version: (string) version of the core in which this
 				value was implemented for this property. this field may
 				be absent if the value has not been implemented
