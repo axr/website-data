@@ -129,21 +129,17 @@ Since the use of URLs as namespaces can be quite cumbersome, we propose the use
 of Uniform Resource Names, or URNs, using Java's reverse domain notation. The
 following example uses a fictitious “document” namespace published by axr.vg:
 
-<code data-language="xml">
-&lt;document xmlns="urn:vg.axr.document"&gt;
-	&lt;!-- more content here --&gt;
-&lt;/document&gt;
-</code>
+	<document xmlns="urn:vg.axr.document">
+		<!-- more content here -->
+	</document>
 
 Namespaces could have a tree-like structure. For example, the "document"
 namespace could have a sub-namespace called "metadata". You would access it like
 this:
 
-<code data-language="xml">
-&lt;document xmlns=”urn:vg.axr.document.metadata”&gt;
-	&lt;!-- more content here --&gt;
-&lt;/document&gt;
-</code>
+	<document xmlns="urn:vg.axr.document.metadata">
+		<!-- more content here -->
+	</document>
 
 Since writing a namespace doesn't also make it known to everyone else, we will
 host a repository of namespaces curated by the community at the AXR Project's
@@ -155,19 +151,17 @@ As an example, imagine you have a bookstore and you want to show a shelf of
 books. Each book could be in the namespace “book” published by, say,
 worldbooks.com. You’d express it like this:
 
-<code data-language="xml">
-&lt;catalog xmlns=”urn:com.worldbooks.book”&gt;
-	&lt;book&gt;
-		&lt;author&gt;John Appleseed&lt;!/author&gt;
-		&lt;isbn&gt;1234567890&lt;!/isbn&gt;
-		&lt;title1&gt;00 healthy recipes&lt;!/title&gt;
-		&lt;!-- etc --&gt;
-	&lt;!book&gt;
-	&lt;book&gt;
-		&lt;!-- etc --&gt;
-	&lt;/book&gt;
-/lt;/catalog&gt;
-</code>
+	<catalog xmlns="urn:com.worldbooks.book">
+		<book>
+			<author>John Appleseed</author>
+			<isbn>1234567890</isbn>
+			<title>100 healthy recipes</title>
+			<!-- etc -->
+		</book>
+		<book>
+			<!-- etc -->
+		</book>
+	</catalog>
 
 ## Modularization (code reuse)
 
@@ -182,31 +176,29 @@ will be much more organized, thus reducing maintenance.
 
 For example:
 
-<code data-language="hss">
-//define an object of type "linearGradient" with the name "boxBg"
-@linearGradient boxBg
-{
-   startColor: #F;
-   endColor: #0;
-   endY: 100%;
-}
+	//define an object of type "linearGradient" with the name "boxBg"
+	@linearGradient boxBg
+	{
+		startColor: #F;
+		endColor: #0;
+		endY: 100%;
+	}
 
-//define a "container" object named "box", which uses the previously
-//defined object
-@container box
-{
-   width: 150;
-   height: 100;
-   background: boxBg;
-}
+	//define a "container" object named "box", which uses the previously
+	//defined object
+	@container box
+	{
+		width: 150;
+		height: 100;
+		background: boxBg;
+	}
 
-//select the element in your content try and apply the object definition
-//to the selection
-selector chain
-{
-   isA: box;
-}
-</code>
+	//select the element in your content try and apply the object definition
+	//to the selection
+	selector chain
+	{
+		isA: box;
+	}
 
 ## Structural independence
 
@@ -235,24 +227,22 @@ or creating new non-semantic ones as needed. The structure of your content
 doesn’t necessarily reflect the structure of a visual layout. Why should you
 create non-semantic elements in your markup just to achieve a visual result?
 
-<code data-language="hss">
-//some of the things you can do:
-myXMLRoot
-{
-	//create a new "myWrapper" wrapper element
-	#wrap myWrapper
+	//some of the things you can do:
+	myXMLRoot
 	{
-		//apply the "myInsetBox" object, which is assumed to have been defined elsewhere
-		isA: myInsetBox;
-		//change the order of the elements, so that the resulting order is the last
-		//element first, then the first one, then the third one, and then any remaining one
-		#move :last, :first, :nth(3);
-		//all the elements that were in the parent scope will now be here
-		*
+		//create a new "myWrapper" wrapper element
+		#wrap myWrapper
 		{
-			//apply the object "myButton", which is assumed to have been defined elsewhere
-			isA: myButton;
+			//apply the "myInsetBox" object, which is assumed to have been defined elsewhere
+			isA: myInsetBox;
+			//change the order of the elements, so that the resulting order is the last
+			//element first, then the first one, then the third one, and then any remaining one
+			#move :last, :first, :nth(3);
+			//all the elements that were in the parent scope will now be here
+			*
+			{
+				//apply the object "myButton", which is assumed to have been defined elsewhere
+				isA: myButton;
+			}
 		}
 	}
-}
-</code>
