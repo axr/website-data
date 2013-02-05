@@ -1,0 +1,171 @@
+AXR Project website data
+------------------------
+This repository contains the AXR Project website pages, blog posts, wiki pages,
+HSS documentation pages and other content.
+
+In the end of this document you will find a very specific set of instructions on
+how the data in this repository is structured. These instructions must be
+followed as precisely as possible.
+
+## A few things to remember when using this repository
+- All the commit messages MUST be in present tense
+- The line length limit is 80 characters. This rule can be ignored on lines that
+  contain long links or code blocks.
+- All the files end with ONE blank line
+
+## The file system structure
+
+The directory structure:
+
+	/pages
+		$PATH_TO_PAGE (`blog/new-release-available-version-0.4.8` for example)
+			content.md
+			info.json
+			... (images, etc.)
+		...
+
+	/packages
+		$PACKAGE_NAME (axr-browser, axr-core, etc.)
+			release-$VERSION.json
+			...
+		...
+
+	/hssdoc
+		@$OBJECT_NAME
+			property-$PROPERTY_NAME.json
+			...
+		...
+
+	wiki/
+		$PATH_TO_PAGE (`developers/building` for example)
+			content.md
+			info.json
+			... (images, etc.)
+		...
+
+	site_menu.json
+	config.json
+
+### pages/.../info.json
+
+	{
+		type: (string) type of the page. values: page|blog-post,
+		title: (string) title for the page,
+		file: (string) name of the content file. this file can reside in a
+			subdirectory. default: `content.md`,
+
+		Fields specific to `blog_post` type:
+		date: (string) date in UTC in `YYYY-MM-DD` format (ISO 8601),
+		author_name: (string) author's real name
+	}
+
+### release-$VERSION.json
+
+	{
+		package: (string) package name,
+		version: (string) release version,
+		files: [
+			{
+				os: (string) values: osx|linux|windows,
+				arch: (string) values: x86_64|i386|intel|none,
+				filename: (string),
+				url: (string) absolute URL to the file,
+				size: (int) file size in bytes,
+				os_version_min: (string) minimum required version number.
+					default: `null`,
+				os_version_max: (string) maximum required version number.
+					default: `null`
+			},
+			...
+		]
+	}
+
+A valid version number is a string consisting of between 2 and 4 dot-separated
+integers. Example: `1.0.7`.
+
+### hssdoc/.../property-$PROPERTY_NAME.json
+
+	{
+		property: (string) name of the property,
+		readonly: (int) boolean,
+		description_file: name of the content file. this file can reside in a
+			subdirectory,
+		values: [
+			{
+				value: (string),
+				is_default: (int) boolean,
+				since_version: (string) version of the core in which this
+				value was implemented for this property. this field may
+				be absent if the value has not been implemented
+			},
+			...
+		]
+	}
+
+### wiki/.../info.json
+
+	{
+		title: (string) title of the page,
+		file: (string) name of the content file. this file can reside in a
+			subdirectory. default: `content.md`
+	}
+
+### site_menu.json
+
+This file specifies the links in the main menu.
+
+	{
+		$PARENT: {
+			url: (string),
+			children: [
+				{
+					name: (string) name of the link,
+					url: (string) URL for the link
+				},
+				...
+			]
+		},
+		...
+	}
+
+$PARENT - values: about|specification|resources|community|wiki|blog
+
+Note: Parents `specification` and `blog` cannot have any children.
+
+
+### config.json
+
+This is a generic configuration file that is used by many different parts of the
+site.
+
+	{
+		ga_account: (string) ID if the Google Analytics account,
+		disqus_shortname: (string),
+		social: {
+			facebook: (string) Facebook username,
+			github: (string) GitHub organization/user name,
+			google_plus: (int) Google+ page ID,
+			launchpad: (string) Launchpad ???,
+			ohloh: (string) Ohloh profile name,
+			twitter: (string) Twitter username, including the `@`,
+			vimeo: (string) Vimeo username,
+			youtube: (string) YouTube channel name
+		}
+	}
+
+## Displaying pages
+
+If a page is requested by URL `/about/features`, then the system will
+look for the page in `$REPO_ROOT/pages/about/features`. If the
+`info.json` file is not found in that directory, the server will respond
+with HTTP status 404.
+
+If there is a problem with understanding the `info.json` or the server
+cannot find the content file, the server will respond with HTTP status
+404.
+
+## Notes
+
+In the JSON files, all the fields are required unless a default value
+is specified for that field, or it is specifically stated that the field
+is optional.
