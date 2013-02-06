@@ -48,7 +48,6 @@ The directory structure:
 			... (images, etc.)
 		...
 
-	site_menu.json
 	config.json
 
 ### pages/.../info.json
@@ -132,28 +131,6 @@ integers. Example: `1.0.7`.
 		title: (string) title of the page,
 		file: (string) name of the content file. default: `content.md`
 	}
-
-### site_menu.json
-
-This file specifies the links in the main menu.
-
-	{
-		$PARENT: {
-			url: (string),
-			children: [
-				{
-					name: (string) name of the link,
-					url: (string) URL for the link
-				},
-				...
-			]
-		},
-		...
-	}
-
-$PARENT - values: about|specification|resources|community|wiki|blog
-
-Note: Parents `specification` and `blog` cannot have any children.
 
 
 ### config.json
