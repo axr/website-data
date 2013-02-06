@@ -119,7 +119,9 @@ integers. Example: `1.0.7`.
 ### hssdoc/@$OBJECT_NAME/info.json
 
 	{
-		name: (string) name of the object. for example: `@container`
+		name: (string) name of the object. for example: `@container`,
+		owner: (string) name of the object. for example: `@container`. this
+			field is optional,
 		description_file: (string) name of the content file. this field is optional
 	}
 
