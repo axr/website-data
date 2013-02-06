@@ -1,0 +1,27 @@
+{
+	"name": "type",
+	"many_values": true,
+	"values": [
+		{
+			"value": "\"down\""
+		},
+		{
+			"value": "\"enter\""
+		},
+		{
+			"value": "\"leave\""
+		},
+		{
+			"value": "\"move\""
+		},
+		{
+			"value": "\"out\""
+		},
+		{
+			"value": "\"over\""
+		},
+		{
+			"value": "\"up\""
+		}
+	]
+}
