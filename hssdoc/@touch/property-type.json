@@ -1,0 +1,24 @@
+{
+	"name": "type",
+	"many_values": true,
+	"values": [
+		{
+			"value": "\"end\""
+		},
+		{
+			"value": "\"enter\""
+		},
+		{
+			"value": "\"hold\""
+		},
+		{
+			"value": "\"leave\""
+		},
+		{
+			"value": "\"move\""
+		},
+		{
+			"value": "\"start\""
+		}
+	]
+}
