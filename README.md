@@ -36,6 +36,7 @@ The directory structure:
 
 	/hssdoc
 		@$OBJECT_NAME
+			info.json
 			property-$PROPERTY_NAME.json
 			...
 		...
@@ -55,8 +56,7 @@ The directory structure:
 	{
 		type: (string) type of the page. values: page|blog-post,
 		title: (string) title for the page,
-		file: (string) name of the content file. this file can reside in a
-			subdirectory. default: `content.md`,
+		file: (string) name of the content file. default: `content.md`,
 
 		Fields specific to `blog-post` type:
 		date: (string) date in UTC in `YYYY-MM-DD` format (ISO 8601),
@@ -98,14 +98,15 @@ integers. Example: `1.0.7`.
 ### hssdoc/.../property-$PROPERTY_NAME.json
 
 	{
-		property: (string) name of the property,
-		readonly: (int) boolean. default: 0,
-		description_file: name of the content file. this file can reside in a
-			subdirectory. this field is optional,
+		name: (string) name of the property,
+		readonly: (boolean) default: 0,
+		many_values: (boolean) whether this property supports many values.
+			this field is optional. default: 0,
+		description_file: name of the content file. this field is optional,
 		values: [
 			{
 				value: (string),
-				is_default: (int) boolean. default: 0,
+				is_default: (boolean) default: 0,
 				since_version: (string) version of the core in which this
 				value was implemented for this property. this field may
 				be absent if the value has not been implemented
@@ -114,12 +115,20 @@ integers. Example: `1.0.7`.
 		]
 	}
 
+
+### hssdoc/@$OBJECT_NAME/info.json
+
+	{
+		name: (string) name of the object. for example: `@container`
+		description_file: (string) name of the content file. this field is optional
+	}
+
+
 ### wiki/.../info.json
 
 	{
 		title: (string) title of the page,
-		file: (string) name of the content file. this file can reside in a
-			subdirectory. default: `content.md`
+		file: (string) name of the content file. default: `content.md`
 	}
 
 ### site_menu.json
