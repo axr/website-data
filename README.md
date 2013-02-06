@@ -144,10 +144,10 @@ site.
 		social: {
 			facebook: (string) Facebook username,
 			github: (string) GitHub organization/user name,
-			google_plus: (int) Google+ page ID,
+			google_plus: (string) Google+ page ID,
 			launchpad: (string) Launchpad ???,
 			ohloh: (string) Ohloh profile name,
-			twitter: (string) Twitter username, including the `@`,
+			twitter: (string) Twitter username, without the `@`,
 			vimeo: (string) Vimeo username,
 			youtube: (string) YouTube channel name
 		}
