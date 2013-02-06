@@ -1,0 +1,27 @@
+{
+	"name": "segments",
+	"multiple_values": true,
+	"values": [
+		{
+			"value": "all",
+			"since_version": "0.4.8",
+			"is_default": true
+		},
+		{
+			"value": "bottom",
+			"since_version": "0.4.8"
+		},
+		{
+			"value": "left",
+			"since_version": "0.4.8"
+		},
+		{
+			"value": "right",
+			"since_version": "0.4.8"
+		},
+		{
+			"value": "top",
+			"since_version": "0.4.8"
+		}
+	]
+}

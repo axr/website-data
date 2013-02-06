@@ -1,0 +1,18 @@
+{
+	"name": "style",
+	"values": [
+		{
+			"value": "@dash"
+		},
+		{
+			"value": "dotted"
+		},
+		{
+			"value": "solid",
+			"is_default": true
+		},
+		{
+			"value": "wavy"
+		}
+	]
+}
