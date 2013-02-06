@@ -1,0 +1,57 @@
+{
+	"name": "type",
+	"many_values": true,
+	"values": [
+		{
+			"value": "\"click\""
+		},
+		{
+			"value": "\"keyDown\""
+		},
+		{
+			"value": "\"keyPress\""
+		},
+		{
+			"value": "\"keyUp\""
+		},
+		{
+			"value": "\"mouseDown\""
+		},
+		{
+			"value": "\"mouseEnter\""
+		},
+		{
+			"value": "\"mouseLeave\""
+		},
+		{
+			"value": "\"mouseMove\""
+		},
+		{
+			"value": "\"mouseOut\""
+		},
+		{
+			"value": "\"mouseOver\""
+		},
+		{
+			"value": "\"mouseUp\""
+		},
+		{
+			"value": "\"touchEnd\""
+		},
+		{
+			"value": "\"touchEnter\""
+		},
+		{
+			"value": "\"touchHold\""
+		},
+		{
+			"value": "\"touchLeave\""
+		},
+		{
+			"value": "\"touchMove\""
+		},
+		{
+			"value": "\"touchStart\""
+		}
+	]
+}
