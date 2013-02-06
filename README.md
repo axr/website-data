@@ -76,9 +76,9 @@ summary.
 		version: (string) release version,
 		files: [
 			{
-				os: (string) values: osx|linux|windows,
+				os: (string) values: osx|linux|windows|src,
 				arch: (string) values: x86_64|i386|intel|none,
-				filename: (string),
+				type: (string) values: exe|dmg|deb|rpm|tar.gz,
 				url: (string) absolute URL to the file,
 				size: (int) file size in bytes,
 				os_version_min: (string) minimum required version number.
