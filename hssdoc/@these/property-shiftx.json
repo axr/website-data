@@ -1,0 +1,9 @@
+{
+	"name": "shiftX",
+	"description_file": "property-shiftx.md",
+	"values": [
+		{
+			"value": "<number>"
+		}
+	]
+}

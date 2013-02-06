@@ -1,0 +1,9 @@
+{
+	"name": "shiftY",
+	"description_file": "property-shifty.md",
+	"values": [
+		{
+			"value": "<number>"
+		}
+	]
+}

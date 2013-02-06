@@ -1,0 +1,5 @@
+{
+	"name": "count",
+	"readonly": true,
+	"description_file": "property-count.md"
+}
