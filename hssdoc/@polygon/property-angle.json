@@ -1,0 +1,9 @@
+{
+	"name": "angle",
+	"values": [
+		{
+			"value": "-360-360",
+			"since_version": "0.4.7"
+		}
+	]
+}

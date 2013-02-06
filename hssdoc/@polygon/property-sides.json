@@ -1,0 +1,9 @@
+{
+	"name": "sides",
+	"values": [
+		{
+			"value": "ℕ",
+			"since_version": "0.4.7"
+		}
+	]
+}
