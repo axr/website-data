@@ -1,0 +1,13 @@
+{
+	"package": "libaxr-doc",
+	"version": "0.4.8",
+	"files": [
+		{
+			"os": "linux",
+			"arch": "none",
+			"type": "deb",
+			"url": "https://github.com/downloads/axr/core/libaxr-doc_0.4.8_all.deb",
+			"size": 1474560
+		}
+	]
+}

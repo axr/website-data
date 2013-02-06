@@ -1,0 +1,41 @@
+{
+	"package": "libaxr",
+	"version": "0.4.8",
+	"files": [
+		{
+			"os": "linux",
+			"arch": "i386",
+			"type": "deb",
+			"url": "https://github.com/downloads/axr/core/libaxr_0.4.8_i386.deb",
+			"size": 612352
+		},
+		{
+			"os": "linux",
+			"arch": "x86_64",
+			"type": "deb",
+			"url": "https://github.com/downloads/axr/core/libaxr_0.4.8_amd64.deb",
+			"size": 592896
+		},
+		{
+			"os": "linux",
+			"arch": "i386",
+			"type": "tar.gz",
+			"url": "https://github.com/downloads/axr/core/libaxr-0.4.8-linux-i386.tar.gz",
+			"size": 2161664
+		},
+		{
+			"os": "linux",
+			"arch": "x86_64",
+			"type": "tar.gz",
+			"url": "https://github.com/downloads/axr/core/libaxr-0.4.8-linux-x86_64.tar.gz",
+			"size": 2148352
+		},
+		{
+			"os": "src",
+			"arch": "none",
+			"type": "tar.gz",
+			"url": "https://github.com/downloads/axr/core/libaxr-0.4.8-src.tar.gz",
+			"size": 68670464
+		}
+	]
+}

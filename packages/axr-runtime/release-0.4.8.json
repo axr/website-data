@@ -1,0 +1,20 @@
+{
+	"package": "axr-runtime",
+	"version": "0.4.8",
+	"files": [
+		{
+			"os": "windows",
+			"arch": "i386",
+			"type": "exe",
+			"url": "https://github.com/downloads/axr/core/axr-runtime-0.4.8-windows-x86.exe",
+			"size": 628736
+		},
+		{
+			"os": "osx",
+			"arch": "intel",
+			"type": "dmg",
+			"url": "https://github.com/downloads/axr/core/axr-runtime-0.4.8-osx-universal.dmg",
+			"size": 1356800
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"package": "axr-doc",
+	"version": "0.4.8",
+	"files": [
+		{
+			"os": "linux",
+			"arch": "none",
+			"type": "rpm",
+			"url": "https://github.com/downloads/axr/core/axr-doc-0.4.8-1.noarch.rpm",
+			"size": 649216
+		}
+	]
+}

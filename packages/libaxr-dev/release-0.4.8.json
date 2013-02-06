@@ -1,0 +1,20 @@
+{
+	"package": "libaxr-dev",
+	"version": "0.4.8",
+	"files": [
+		{
+			"os": "linux",
+			"arch": "i386",
+			"type": "deb",
+			"url": "https://github.com/downloads/axr/core/libaxr-dev_0.4.8_i386.deb",
+			"size": 72704
+		},
+		{
+			"os": "linux",
+			"arch": "x86_64",
+			"type": "deb",
+			"url": "https://github.com/downloads/axr/core/libaxr-dev_0.4.8_amd64.deb",
+			"size": 71680
+		}
+	]
+}
