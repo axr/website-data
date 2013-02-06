@@ -1,0 +1,18 @@
+{
+	"name": "lineWrap",
+	"values": [
+		{
+			"value": "break",
+			"is_default": true
+		},
+		{
+			"value": "nowrap"
+		},
+		{
+			"value": "preserve"
+		},
+		{
+			"value": "prewrap"
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"name": "text",
+	"description_file": "property-text.md",
+	"values": [
+		{
+			"value": "<string>"
+		},
+		{
+			"value": "content",
+			"is_default": true
+		},
+		{
+			"value": "no"
+		}
+	]
+}

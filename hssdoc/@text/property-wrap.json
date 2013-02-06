@@ -1,0 +1,15 @@
+{
+	"name": "wrap",
+	"values": [
+		{
+			"value": "auto",
+			"is_default": true
+		},
+		{
+			"value": "breakword"
+		},
+		{
+			"value": "hyphenate"
+		}
+	]
+}

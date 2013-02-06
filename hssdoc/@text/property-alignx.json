@@ -1,0 +1,27 @@
+{
+	"name": "alignX",
+	"values": [
+		{
+			"value": "<number>"
+		},
+		{
+			"value": "center"
+		},
+		{
+			"value": "end"
+		},
+		{
+			"value": "justify"
+		},
+		{
+			"value": "left"
+		},
+		{
+			"value": "right"
+		},
+		{
+			"value": "start",
+			"is_default": true
+		}
+	]
+}

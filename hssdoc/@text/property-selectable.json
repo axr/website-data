@@ -1,0 +1,12 @@
+{
+	"name": "selectable",
+	"values": [
+		{
+			"value": "no"
+		},
+		{
+			"value": "yes",
+			"is_default": true
+		}
+	]
+}

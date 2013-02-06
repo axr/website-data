@@ -1,0 +1,18 @@
+{
+	"name": "transform",
+	"values": [
+		{
+			"value": "capitalize"
+		},
+		{
+			"value": "lowercase"
+		},
+		{
+			"value": "no",
+			"is_default": true
+		},
+		{
+			"value": "uppercase"
+		}
+	]
+}

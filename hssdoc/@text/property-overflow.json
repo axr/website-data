@@ -1,0 +1,16 @@
+{
+	"name": "overflow",
+	"description_file": "property-overflow.md",
+	"values": [
+		{
+			"value": "<string>"
+		},
+		{
+			"value": "hidden"
+		},
+		{
+			"value": "visible",
+			"is_default": true
+		}
+	]
+}

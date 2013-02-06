@@ -1,0 +1,27 @@
+{
+	"name": "alignY",
+	"values": [
+		{
+			"value": "<number>"
+		},
+		{
+			"value": "baseline",
+			"is_default": true
+		},
+		{
+			"value": "bottom"
+		},
+		{
+			"value": "center"
+		},
+		{
+			"value": "sub"
+		},
+		{
+			"value": "sup"
+		},
+		{
+			"value": "top"
+		}
+	]
+}

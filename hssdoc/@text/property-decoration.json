@@ -1,0 +1,21 @@
+{
+	"name": "decoration",
+	"values": [
+		{
+			"value": "@line"
+		},
+		{
+			"value": "no",
+			"is_default": true
+		},
+		{
+			"value": "overline"
+		},
+		{
+			"value": "strike"
+		},
+		{
+			"value": "underline"
+		}
+	]
+}

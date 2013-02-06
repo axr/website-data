@@ -1,0 +1,12 @@
+{
+	"name": "whitespace",
+	"values": [
+		{
+			"value": "collapse",
+			"is_default": true
+		},
+		{
+			"value": "preserve"
+		}
+	]
+}
