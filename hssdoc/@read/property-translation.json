@@ -1,0 +1,21 @@
+{
+	"name": "translation",
+	"values": [
+		{
+			"value": "browser"
+		},
+		{
+			"value": "locale"
+		},
+		{
+			"value": "no",
+			"is_default": true
+		},
+		{
+			"value": "system"
+		},
+		{
+			"value": "user"
+		}
+	]
+}

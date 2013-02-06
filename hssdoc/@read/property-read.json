@@ -1,0 +1,12 @@
+{
+	"name": "read",
+	"values": [
+		{
+			"value": "<string>"
+		},
+		{
+			"value": "content",
+			"is_default": true
+		}
+	]
+}
