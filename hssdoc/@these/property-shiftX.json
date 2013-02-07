@@ -1,6 +1,6 @@
 {
 	"name": "shiftX",
-	"description_file": "property-shiftx.md",
+	"description_file": "property-shiftX.md",
 	"values": [
 		{
 			"value": "<number>"
