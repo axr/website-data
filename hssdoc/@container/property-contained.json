@@ -1,0 +1,14 @@
+{
+	"name": "contained",
+	"values": [
+		{
+			"value": "no",
+			"since_version": "0.4.8"
+		},
+		{
+			"value": "yes",
+			"since_version": "0.4.8",
+			"is_default": true
+		}
+	]
+}

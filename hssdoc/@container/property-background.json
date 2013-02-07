@@ -1,0 +1,31 @@
+{
+	"name": "background",
+	"many_values": true,
+	"values": [
+		{
+			"value": "@rgb",
+			"since_version": "0.4.2"
+		},
+		{
+			"value": "#RRGGBBAA",
+			"since_version": "0.4.8"
+		},
+		{
+			"value": "black",
+			"since_version": "0.4.8"
+		},
+		{
+			"value": "no",
+			"since_version": "0.4.8",
+			"is_default": true
+		},
+		{
+			"value": "transparent",
+			"since_version": "0.4.8"
+		},
+		{
+			"value": "white",
+			"since_version": "0.4.8"
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"name": "effects",
+	"many_values": true,
+	"values": [
+		{
+			"value": "@blur"
+		},
+		{
+			"value": "@opacity"
+		},
+		{
+			"value": "@shadow"
+		},
+		{
+			"value": "no",
+			"is_default": true
+		}
+	]
+}

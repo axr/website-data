@@ -1,0 +1,13 @@
+{
+	"name": "anchorY",
+	"values": [
+		{
+			"value": "<number>"
+		},
+		{
+			"value": "no",
+			"since_version": "0.4.8",
+			"is_default": true
+		}
+	]
+}

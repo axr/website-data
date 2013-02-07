@@ -1,0 +1,14 @@
+{
+	"name": "height",
+	"description_file": "property-height.md",
+	"values": [
+		{
+			"value": "content",
+			"is_default": true
+		},
+		{
+			"value": "<number>",
+			"since_version": "0.3"
+		}
+	]
+}

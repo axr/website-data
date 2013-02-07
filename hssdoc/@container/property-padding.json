@@ -1,0 +1,16 @@
+{
+	"name": "padding",
+	"many_values": true,
+	"values": [
+		{
+			"value": "<number>"
+		},
+		{
+			"value": "@margin"
+		},
+		{
+			"value": "no",
+			"is_default": true
+		}
+	]
+}

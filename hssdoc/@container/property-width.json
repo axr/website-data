@@ -1,0 +1,13 @@
+{
+	"name": "width",
+	"description_file": "property-width.md",
+	"values": [
+		{
+			"value": "content"
+		},
+		{
+			"value": "<number>",
+			"since_version": "0.3"
+		}
+	]
+}

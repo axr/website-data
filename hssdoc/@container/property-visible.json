@@ -1,0 +1,14 @@
+{
+	"name": "visible",
+	"values": [
+		{
+			"value": "no",
+			"since_version": "0.4.8"
+		},
+		{
+			"value": "yes",
+			"is_default": true,
+			"since_version": "0.4.8"
+		}
+	]
+}

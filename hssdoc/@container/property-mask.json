@@ -1,0 +1,15 @@
+{
+	"name": "mask",
+	"values": [
+		{
+			"value": "<object>",
+		},
+		{
+			"value": "no",
+			"is_default": true
+		},
+		{
+			"value": "sel()"
+		}
+	]
+}

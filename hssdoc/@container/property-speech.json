@@ -1,0 +1,12 @@
+{
+	"name": "speech",
+	"values": [
+		{
+			"value": "@read",
+			"is_default": true
+		},
+		{
+			"value": "no"
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"name": "direction",
+	"values": [
+		{
+			"value": "btt",
+			"since_version": "0.4.8"
+		},
+		{
+			"value": "ltr",
+			"since_version": "0.4.8",
+			"is_default": true
+		},
+		{
+			"value": "rtl",
+			"since_version": "0.4.8"
+		},
+		{
+			"value": "ttb",
+			"since_version": "0.4.8"
+		}
+	]
+}

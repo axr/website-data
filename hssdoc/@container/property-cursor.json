@@ -1,0 +1,49 @@
+{
+	"name": "cursor",
+	"description_file": "property-cursor.md",
+	"values": [
+		{
+			"value": "arrow"
+		},
+		{
+			"value": "auto",
+			"is_default": true
+		},
+		{
+			"value": "drop"
+		},
+		{
+			"value": "grab"
+		},
+		{
+			"value": "help"
+		},
+		{
+			"value": "move"
+		},
+		{
+			"value": "no"
+		},
+		{
+			"value": "pointer"
+		},
+		{
+			"value": "prohibit"
+		},
+		{
+			"value": "textX"
+		},
+		{
+			"value": "textY"
+		},
+		{
+			"value": "zoom"
+		},
+		{
+			"value": "zoomIn"
+		},
+		{
+			"value": "zoomOut"
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"name": "attr",
+	"description_file": "property-attr.md",
+	"values": [
+		{
+			"value": "@value"
+		},
+		{
+			"value": "no",
+			"is_default": true
+		}
+	]
+}

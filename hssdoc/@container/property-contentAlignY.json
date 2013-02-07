@@ -1,0 +1,30 @@
+{
+	"name": "contentAlignY",
+	"values": [
+		{
+			"value": "<number>",
+			"since_version": "0.3"
+		},
+		{
+			"value": "bottom",
+			"since_version": "0.3"
+		},
+		{
+			"value": "center",
+			"since_version": "0.3"
+		},
+		{
+			"value": "top",
+			"since_version": "0.3",
+			"is_default": true
+		},
+		{
+			"value": "even",
+			"since_version": "0.4.8"
+		},
+		{
+			"value": "justify",
+			"since_version": "0.4.8"
+		}
+	]
+}

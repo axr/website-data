@@ -1,0 +1,11 @@
+{
+	"name": "isA",
+	"many_values": true,
+	"description_file": "property-isA.md",
+	"values": [
+		{
+			"value": "<object>",
+			"since_version": "0.4"
+		}
+	]
+}

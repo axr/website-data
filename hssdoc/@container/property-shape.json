@@ -1,0 +1,15 @@
+{
+	"name": "shape",
+	"values": [
+		{
+			"value": "@circle"
+		},
+		{
+			"value": "@polygon"
+		},
+		{
+			"value": "@rectangle",
+			"is_default": true
+		}
+	]
+}

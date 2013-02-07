@@ -1,0 +1,9 @@
+{
+	"name": "text",
+	"values": [
+		{
+			"value": "@text",
+			"is_default": true
+		}
+	]
+}

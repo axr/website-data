@@ -1,0 +1,14 @@
+{
+	"name": "flow",
+	"values": [
+		{
+			"value": "no",
+			"since_version": "0.4.6"
+		},
+		{
+			"value": "yes",
+			"since_version": "0.4.6",
+			"is_default": true
+		}
+	]
+}

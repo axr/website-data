@@ -1,0 +1,29 @@
+{
+	"name": "alignX",
+	"values": [
+		{
+			"value": "<number>",
+			"since_version": "0.3"
+		},
+		{
+			"value": "center",
+			"since_version": "0.3"
+		},
+		{
+			"value": "left",
+			"since_version": "0.3"
+		},
+		{
+			"value": "right",
+			"since_version": "0.3"
+		},
+		{
+			"value": "even",
+			"since_version": "0.4.8"
+		},
+		{
+			"value": "justify",
+			"since_version": "0.4.8"
+		}
+	]
+}

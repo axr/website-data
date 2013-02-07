@@ -1,0 +1,10 @@
+{
+	"name": "font",
+	"many_values": true,
+	"values": [
+		{
+			"value": "@font",
+			"since_version": "0.3"
+		}
+	]
+}

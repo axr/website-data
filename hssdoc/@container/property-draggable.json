@@ -1,0 +1,12 @@
+{
+	"name": "draggable",
+	"values": [
+		{
+			"value": "no",
+			"is_default": true
+		},
+		{
+			"value": "yes"
+		}
+	]
+}
