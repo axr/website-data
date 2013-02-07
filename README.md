@@ -114,6 +114,9 @@ integers. Example: `1.0.7`.
 		]
 	}
 
+Note: The property name in the "name" field and in the file name must be
+identical.
+
 
 ### hssdoc/@$OBJECT_NAME/info.json
 
