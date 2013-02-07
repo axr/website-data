@@ -1,0 +1,13 @@
+{
+	"name": "stretch",
+	"many_values": true,
+	"values": [
+		{
+			"value": "<keyword>"
+		},
+		{
+			"value": "no",
+			"is_default": true
+		}
+	]
+}

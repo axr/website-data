@@ -1,0 +1,9 @@
+{
+	"name": "faces",
+	"many_values": true,
+	"values": [
+		{
+			"value": "<string>"
+		}
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"name": "weight",
+	"values": [
+		{
+			"value": "<keyword>"
+		},
+		{
+			"value": "<weight class>"
+		}
+	]
+}

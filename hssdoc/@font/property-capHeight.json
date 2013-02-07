@@ -1,0 +1,5 @@
+{
+	"name": "capHeight",
+	"description_file": "property-capHeight.md",
+	"readonly": true
+}

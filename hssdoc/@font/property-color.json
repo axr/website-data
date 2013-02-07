@@ -1,0 +1,24 @@
+{
+	"name": "color",
+	"values": [
+		{
+			"value": "#RRGGBBAA"
+		},
+		{
+			"value": "@rgb"
+		},
+		{
+			"value": "black"
+		},
+		{
+			"value": "no",
+			"is_default": true
+		},
+		{
+			"value": "transparent"
+		},
+		{
+			"value": "white"
+		}
+	]
+}
