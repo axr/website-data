@@ -1,0 +1,10 @@
+script: util/travis.sh
+branches:
+  only:
+    - master
+notifications:
+  recipients:
+    - axr-ci@googlegroups.com
+  email:
+    on_success: change
+    on_failure: always
