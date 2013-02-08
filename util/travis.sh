@@ -2,6 +2,7 @@
 
 root=$(git rev-parse --show-toplevel)
 
+gem install json-schema
 ruby "$root/util/validator/validate.rb"
 
 if [ "$?" -eq 0 ]; then
