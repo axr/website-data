@@ -1,0 +1,57 @@
+{
+	"type": "object",
+	"additionalProperties": false,
+	"properties": {
+		"package": {
+			"type": "string",
+			"required": true
+		},
+		"version": {
+			"type": "string",
+			"pattern": "^\\d+(\\.\\d+){0,3}$",
+			"required": true
+		},
+		"files": {
+			"type": "array",
+			"required": true,
+			"items": {
+				"type": "object",
+				"additionalProperties": true,
+				"properties": {
+					"os": {
+						"type": "string",
+						"enum": ["osx", "linux", "windows", "src"],
+						"required": true
+					},
+					"arch": {
+						"type": "string",
+						"enum": ["x86_64", "i386", "intel", "none"],
+						"required": true
+					},
+					"type": {
+						"type": "string",
+						"enum": ["exe", "dmg", "deb", "rpm", "tar.gz"],
+						"required": true
+					},
+					"url": {
+						"type": "string",
+						"pattern": "^\\w+:\/\/",
+						"required": true
+					},
+					"size": {
+						"type": "integer",
+						"required": true
+					},
+					"os_version_min": {
+						"type": "string",
+						"pattern": "^\\d+(\\.\\d+){0,3}$"
+					},
+					"os_version_max": {
+						"type": "string",
+						"pattern": "^\\d+(\\.\\d+){0,3}$"
+					}
+				}
+			}
+		}
+	}
+}

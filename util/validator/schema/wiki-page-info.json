@@ -1,0 +1,13 @@
+{
+	"type": "object",
+	"additionalProperties": false,
+	"properties": {
+		"title": {
+			"type": "string",
+			"required": true
+		},
+		"file": {
+			"type": "string"
+		}
+	}
+}

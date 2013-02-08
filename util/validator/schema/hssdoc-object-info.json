@@ -1,0 +1,19 @@
+{
+	"type": "object",
+	"additionalProperties": false,
+	"properties":
+	{
+		"name": {
+			"type": "string",
+			"pattern": "^@\\w+$",
+			"required": true
+		},
+		"owner": {
+			"type": "string",
+			"pattern": "^@\\w+$"
+		},
+		"description_file": {
+			"type": "string"
+		}
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"type": "object",
+	"additionalProperties": false,
+	"properties": {
+		"name": {
+			"type": "string",
+			"required": true
+		},
+		"readonly": {
+			"type": "boolean"
+		},
+		"many_values": {
+			"type": "boolean"
+		},
+		"description_file": {
+			"type": "string"
+		},
+		"values": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"additionalProperties": false,
+				"properties": {
+					"value": {
+						"type": "string",
+						"required": true
+					},
+					"is_default": {
+						"type": "boolean"
+					},
+					"since_version": {
+						"type": "string",
+						"pattern": "^\\d+(\\.\\d+){0,3}$"
+					}
+				}
+			}
+		}
+	}
+}
