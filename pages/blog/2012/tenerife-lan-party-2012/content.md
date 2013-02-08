@@ -68,7 +68,8 @@ As a summary, I can say I truly had an incredible time. Here are some of the
 highlights for me:
 
 - Meeting many interesting people, including many coming from fields other than
-  computer sciences, including Juan García ([@blogoff](https://twitter.com/blogoff)).
+  computer sciences, including Juan García
+  ([@blogoff](https://twitter.com/blogoff)).
 - Finally meeting Yeray Darias ([@ydarias](https://twitter.com/ydarias)) and
   Juanma Barroso ([@jmbarroso](https://twitter.com/jmbarroso)) in person and
   having lunch with them (together with a couple more awesome people) in San

@@ -31,22 +31,20 @@ just write a list of `<book>` elements, with their corresponding inner elements
 defining all the information that go with that book. For example, this would be
 the file http://examplebookstore.com/books.xml:
 
-<code data-language="xml">
-&lt;?xml version="1.0" encoding="UTF-8"?&gt;
-<books xmlns="urn:vg.axr.book">
-    <book>
-        <title>Winnie-the-Pooh</title>
-        <author name="Alan Alexander" surname="Milne" />
-        <publisher>Dutton Juvenile</publisher>
-        <cover src="http://en.wikipedia.org/wiki/File:WinnieThePooh.JPG" />
-        <isbn>0525467564</isbn>
-        <rating outOf="5">4.29</rating>
-    </book>
-    <book>
-        <!-- etc -->
-    </book>
-</books>
-</code>
+	<?xml version="1.0" encoding="UTF-8"?>
+	<books xmlns="urn:vg.axr.book">
+		<book>
+			<title>Winnie-the-Pooh</title>
+			<author name="Alan Alexander" surname="Milne" />
+			<publisher>Dutton Juvenile</publisher>
+			<cover src="http://en.wikipedia.org/wiki/File:WinnieThePooh.JPG" />
+			<isbn>0525467564</isbn>
+			<rating outOf="5">4.29</rating>
+		</book>
+		<book>
+			<!-- etc -->
+		</book>
+	</books>
 
 This can easily be generated from a database or any other data source, and since
 you don't care for structure, order or presentation, it can be easily reused on
@@ -65,13 +63,11 @@ will load a file called "style.hss" in the same folder as the XML file. If it
 should load it from anywhere else, you tell it with the following XML
 instruction (higlighted in bold):
 
-<code data-language="xml">
-&lt;?xml version="1.0" encoding="UTF-8"?&gt;
-&lt;?xml-stylesheet type="application/hss" src="path/to/file.hss"?&gt;
-<books xmlns="urn:vg.axr.book">
-    <!-- etc -->
-</books>
-</code>
+	<?xml version="1.0" encoding="UTF-8"?>
+	<?xml-stylesheet type="application/hss" src="path/to/file.hss"?>
+	<books xmlns="urn:vg.axr.book">
+		<!-- etc -->
+	</books>
 
 From within this file, the whole structure of the page can be defined, other XML
 pages (such as the navigation, sidebar, footer, etc) and resources such as
@@ -85,13 +81,11 @@ CMS) all the pages that you want to have indexed. Nowadays, the usual way is to
 put it the reference in the robots.txt file, but we suggest an XML instruction
 to link to it. In the next example, you can see how this could done:
 
-<code data-language="xml">
-&lt;?xml version="1.0" encoding="UTF-8"?&gt;
-&lt;?xml-sitemap type="text/xml" src="path/to/sitemap.xml"?&gt;
-<books xmlns="urn:vg.axr.book">
-    <!-- etc -->
-</books>
-</code>
+	<?xml version="1.0" encoding="UTF-8"?>
+	<?xml-sitemap type="text/xml" src="path/to/sitemap.xml"?>
+	<books xmlns="urn:vg.axr.book">
+		<!-- etc -->
+	</books>
 
 How the human user navigates from one document to the other will be defined in
 the HSS file, and doesn't necessarily reflect the same path a web crawler would
@@ -145,20 +139,18 @@ in the XML file is a tree of elements, why not apply styles using a tree as
 well? It is both clearer and has better performance, since not all elements have
 to be matched against each selector.
 
-<code data-language="hss">
-//we target the outermost element
-books
-{
-    background: #E;
-    //more styles here
-  
-    //this targets only elements with name book which are inside books
-    book
-    {
-        isA: myBookTemplate; //assuming myBookTemplate has been defined somewhere else
-    }
-}
-</code>
+	// we target the outermost element
+	books
+	{
+		background: #E;
+		// more styles here
+
+		// this targets only elements with name book which are inside books
+		book
+		{
+			isA: myBookTemplate; // assuming myBookTemplate has been defined somewhere else
+		}
+	}
 
 ### Object Oriented:
 In CSS, multiple values for some aspect of your design are expressed with
@@ -168,49 +160,46 @@ stymbol @ represents an object. Immediately afterwards comes the object type
 (it can also be derived from context if you omit it), and optionally a name.
 Then, you define a block of properties like you would in a normal rule.
 
-<code data-language="hss">
-books book
-{
-    border: @lineBorder {
-        size: 1;
-        color: #0;
-    };
-    font: @font myFont {
-        face: "Helvetica";
-        size: 18;
-        color: #F00;
-    };
-}
-</code>
+	books book
+	{
+		border: @lineBorder {
+			size: 1;
+			color: #0;
+		};
+
+		font: @font myFont {
+			face: "Helvetica";
+			size: 18;
+			color: #F00;
+		};
+	}
 
 ### Modular:
 Objects can be given a name when defined, and then reused later. This works for
 objects you'd use to set fonts, borders, margins, or even use containers as
 templates for your elements.
 
-<code data-language="hss">
-//define a font object called 'myFont'
-@font myFont
-{
-    face: "Helvetica";
-    size: 18;
-    color: #F00;
-}
+	// define a font object called 'myFont'
+	@font myFont
+	{
+		face: "Helvetica";
+		size: 18;
+		color: #F00;
+	}
 
-//define a container called 'bookTemplate' that uses that font
-@container bookTemplate
-{
-    width: 85;
-    height: 120;
-    font: myFont;
-}
+	// define a container called 'bookTemplate' that uses that font
+	@container bookTemplate
+	{
+		width: 85;
+		height: 120;
+		font: myFont;
+	}
 
-//apply it here
-books book
-{
-    isA: bookTemplate
-}
-</code>
+	// apply it here
+	books book
+	{
+		isA: bookTemplate
+	}
 
 ### Expressions, Functions and References:
 Instead of simply writing a value, in HSS you can use other tools to express
@@ -221,30 +210,28 @@ example. Functions return a value depending on its arguments, and can be always
 used to set the value, no matter the type (numeric, string, keyword, object,
 etc).
 
-<code data-language="hss">
-//in the XML, the topmost element would be called document
-document
-{
-    //make all elements inside the document be aligned to 50 points below the vertical center
-    contentAlignY: 50% + 50;
+	// in the XML, the topmost element would be called document
+	document
+	{
+		// make all elements inside the document be aligned to 50 points below the vertical center
+		contentAlignY: 50% + 50;
 
-    sidebar
-    {
-        //make the sidebar 250 points wide
-        width: 250;
-        //this would make the sidebar at least 400 points tall, or the height of the content element, if bigger
-        height: min(400, ref(height of content));
-    }
-  
-    content
-    {
-        //this makes the width of this element to be all the remaining width, but at most 900 points
-        width: max(900, 100% - ref(width of sidebar);
-        //this will cause the content to be always 200 points less tall than its parent 
-        height: 100% - 200;
-    }
-}
-</code>
+		sidebar
+		{
+			// make the sidebar 250 points wide
+			width: 250;
+			// this would make the sidebar at least 400 points tall, or the height of the content element, if bigger
+			height: min(400, ref(height of content));
+		}
+
+		content
+		{
+			// this makes the width of this element to be all the remaining width, but at most 900 points
+			width: max(900, 100% - ref(width of sidebar);
+			// this will cause the content to be always 200 points less tall than its parent
+			height: 100% - 200;
+		}
+	}
 
 ### Filters:
 Inspired in part by jQuery, what in CSS are pseudo-elements and pseudo-classes,
@@ -254,35 +241,31 @@ are selecting all elements, which makes it easier to read. The following are
 some examples of what you could do with filters, but for simplicity, without
 applying any properties, and leaving the block empty.
 
-<code data-language="hss">
-books
-{
-    //selects the first element
-    *:first {}
-    //selects all even ones (ommitting the * is ok)
-    :even {}
-    //selects the first child element (amongst all books)
-    book :first {}
-}
-</code>
+	books
+	{
+		// selects the first element
+		*:first {}
+
+		// selects all even ones (ommitting the * is ok)
+		:even {}
+
+		// selects the first child element (amongst all books)
+		book :first {}
+	}
 
 In contrast to how it works in CSS, all descendant elements are selected
 together and then filtered down. So, in the example above, where we did this:
 
-<code data-language="hss">
-//selects the first child element (amongst all books)
-book :first {}
-</code>
+	// selects the first child element (amongst all books)
+	book :first {}
 
 what actually happens is that all book elements are selected, then all the
 elements inside them, and then the first one is chosen. If instead you want the
 first one of each element (which very well may be the case) you can split that
 selection with the :each filter, like this:
 
-<code data-language="hss">
-//selects the first element inside each book
-book:each :first {}
-</code>
+	// selects the first element inside each book
+	book:each :first {}
 
 There are many more filters than just the ones presented here. Take look at the
 spec to see all the different possibilities.
@@ -298,43 +281,42 @@ withing the presentation layer, reorder them and shuffle them around, so that
 they fit your visual design. On top of that, you can use powerful alignment
 tools, making advanced layouts a breeze.
 
-<code data-language="hss">
-books
-{
-    //distributes content element horizontally
-    contentAlignX: distribute;
-  
-    book
-    {
-        //inner margin, like padding in CSS, using the shorthand
-        //notation and deriving the object type from context
-        innerMargin: @{ 15 };
-    
-        //create a new container that will show an image of the book, with the cover image and the title
-        #new bookIcon
-        {
-            //apply the template (defined elsewhere)
-            isA: bookIconTemplate;
+	books
+	{
+		// distributes content element horizontally
+		contentAlignX: distribute;
 
-            //now put the cover inside this element, and separate it from the flow
-            #move cover
-            {
-                flow: no;
-            }
-            //move the title as well, put it at 80% vertically and style it a bit
-            #move title
-            {
-                alignY: 80%;
-                font: myFont;
-                margin: @{ 10 };
-                background: @rgba { alpha: 40% };
-            }
-        }
+		book
+		{
+			// inner margin, like padding in CSS, using the shorthand
+			// notation and deriving the object type from context
+			innerMargin: @{ 15 };
 
-        //more styles here
-    }
-}
-</code>
+			// create a new container that will show an image of the book, with the cover image and the title
+			#new bookIcon
+			{
+				// apply the template (defined elsewhere)
+				isA: bookIconTemplate;
+
+				// now put the cover inside this element, and separate it from the flow
+				#move cover
+				{
+					flow: no;
+				}
+
+				// move the title as well, put it at 80% vertically and style it a bit
+				#move title
+				{
+					alignY: 80%;
+					font: myFont;
+					margin: @{ 10 };
+					background: @rgba { alpha: 40% };
+				}
+			}
+
+			// more styles here
+		}
+	}
 
 Layout with HSS warrants its own full-length post, so I'll leave it at this. How
 and when to use each feature obviously always depends on the particular aspects
@@ -352,32 +334,30 @@ curves, arcs and lines, that can be applied to any container. Thanks to the
 modular syntax, you can define a shape once and then apply it wherever it is
 needed.
 
-<code data-language="hss">
-//define a shape of a house
-@path houseIcon
-{
-    startX: 50%;
-    semgents:
-        @line{ 100% 40% },
-        @line{ 80% 40% },
-        @line{ 80% 100% },
-        @line{ 20% 100% },
-        @line{ 20% 40% },
-        @line{ 0 40% }
-}
-//apply it
-myElement { shape: houseIcon }
+	// define a shape of a house
+	@path houseIcon
+	{
+		startX: 50%;
+		semgents:
+			@line{ 100% 40% },
+			@line{ 80% 40% },
+			@line{ 80% 100% },
+			@line{ 20% 100% },
+			@line{ 20% 40% },
+			@line{ 0 40% }
+	}
+	// apply it
+	myElement { shape: houseIcon }
 
-//predefined shapes:
-//rounded rectangle
-myElement2 { shape: @roundedRect { corners: 15 } }
-//this is equivalent
-myElement2 { shape: @{15} }
-//circle
-myElement3 { shape: @circle } }
-//polygon (in this example a triangle)
-myElmeent4 { shape: @polygon{ sides: 3; startAngle: 90 } }
-</code>
+	// predefined shapes:
+	// rounded rectangle
+	myElement2 { shape: @roundedRect { corners: 15 } }
+	// this is equivalent
+	myElement2 { shape: @{15} }
+	// circle
+	myElement3 { shape: @circle } }
+	// polygon (in this example a triangle)
+	myElement4 { shape: @polygon{ sides: 3; startAngle: 90 } }
 
 Behaviors:
 As explained earlier in this article, in HSS you define the behavior from within
@@ -385,33 +365,31 @@ the presentation layer. Many basic behaviors will be covered by HSS objects
 directly, such as changing a value on another object or loading a file, but if
 the natively provided behaviors aren't enough, JavaScript can be used, too.
 
-<code data-language="hss">
-//loading another page when clicked
-myLinkElem
-{
-    behavior: @click {
-        action: @load {
-            src: attr(href); //we get the attribute href from the XML element
-        };
-}
+	// loading another page when clicked
+	myLinkElem
+	{
+		behavior: @click {
+			action: @load {
+				src: attr(href); // we get the attribute href from the XML element
+			};
+	}
 
-//this will make the elementB shrink or grow if you drag on elementA
-elementA
-{
-    behavior: @drag e {
-        action: @changeValue {
-            target: sel(elementB);
-            property: "height";
-            value: 50 + e.deltaX;
-        }
-    }
-}
+	// this will make the elementB shrink or grow if you drag on elementA
+	elementA
+	{
+		behavior: @drag e {
+			action: @changeValue {
+				target: sel(elementB);
+				property: "height";
+				value: 50 + e.deltaX;
+			}
+		}
+	}
 
-//invoke JavaScript
-document
-{
-    behavior:
-        @load { @javascript {' alert("Hello World!") '} }, //alerts Hello World
-        @load { @jsFunction { "initialize" } }; //assuming the js function initialize() has been declared somewhere else
-}
-</code>
+	// invoke JavaScript
+	document
+	{
+		behavior:
+			@load { @javascript {' alert("Hello World!") '} }, // alerts Hello World
+			@load { @jsFunction { "initialize" } }; // assuming the js function initialize() has been declared somewhere else
+	}

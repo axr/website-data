@@ -34,27 +34,26 @@ Both "sides" and "angle" properties accept numbers. In the latter, it is
 measured in degrees in a 360º circle. So, for example, opening this file in the
 prototype:
 
-<code data-language="hss">
-//always targets root
-*{
-	contentAlignY: 50%;
-
-	//create a new test element
-	#new test
+	// always targets root
+	*
 	{
-		width: 100;
-		height: 100;
-		background: #D;
+		contentAlignY: 50%;
+
+		// create a new test element
+		#new test
+		{
+			width: 100;
+			height: 100;
+			background: #D;
 
 
-		//apply the shape
-		shape: @polygon {
-			angle: 270; //top, will be changed to 0 in future versions
-			sides: 5;
-		};
+			// apply the shape
+			shape: @polygon {
+				angle: 270; // top, will be changed to 0 in future versions
+				sides: 5;
+			};
+		}
 	}
-}
-</code>
 
 will look like this:
 
@@ -70,17 +69,16 @@ semantics are not an issue, being it a purely presentational feature.
 
 For example:
 
-<code data-language="hss">
-//always targets root
-*{
-	//create a new test element
-	#new test
+	// always targets root
+	*
 	{
-		//set this to be the content text
-		content: "Hello World";
+		// create a new test element
+		#new test
+		{
+			// set this to be the content text
+			content: "Hello World";
+		}
 	}
-}
-</code>
 
 ### Support for loading the HSS framework (Windows support comming soon)
 
@@ -88,28 +86,26 @@ You can now get your lips wet with the first pre-preview of what using the HSS
 framework will be like (because stuff is bound to change still). Consider this
 example HSS file:
 
-<code data-language="hss">
-//import the framework
-#import UIFramework;
- 
-//always targets root
-*
-{
-	contentAlignY: 50%;
- 
-	//create a new myButton element
-	#new myButton
+	// import the framework
+	#import UIFramework;
+
+	// always targets root
+	*
 	{
-		//apply the UIButton preset
-		isA: UIButton;
- 
-		//we customize it a bit
-		width: 200;
-		height: 50;
-		content: "hit me!";
+		contentAlignY: 50%;
+
+		// create a new myButton element
+		#new myButton
+		{
+			// apply the UIButton preset
+			isA: UIButton;
+
+			// we customize it a bit
+			width: 200;
+			height: 50;
+			content: "hit me!";
+		}
 	}
-}
-</code>
 
 This will result in the following document:
 
@@ -124,31 +120,27 @@ selector chain), which makes common copy and paste operations much easier.
 
 Suppose we have the following XML:
 
-<code data-language="xml">
-&lt;?xml version="1.0" encoding="UTF-8" ?&gt;
-&lt;?xml-stylesheet type="application/x-hss" src="style.hss" version="1.0" ?&gt;
-<document>
-	&lt;elementA />
-	&lt;elementB />
-	&lt;elementC />
-	&lt;elementD />
-</document>
-</code>
+	<?xml version="1.0" encoding="UTF-8" ?>
+	<?xml-stylesheet type="application/x-hss" src="style.hss" version="1.0" ?>
+	<document>
+		<elementA />
+		<elementB />
+		<elementC />
+		<elementD />
+	</document>
 
 And the following HSS file called style.hss:
 
-<code data-language="hss">
-//always targets root
-*
-{
-	//simple example
-	elementA, elementC { content: "First group" }
- 
-	//notice the trailing comma before the block
-	elementB,
-	elementD,
+	// always targets root
+	*
 	{
-		content: "Second group";
+		// simple example
+		elementA, elementC { content: "First group" }
+
+		// notice the trailing comma before the block
+		elementB,
+		elementD,
+		{
+			content: "Second group";
+		}
 	}
-}
-</code>
