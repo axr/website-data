@@ -1,6 +1,6 @@
 {
 	"name": "segments",
-	"multiple_values": true,
+	"many_values": true,
 	"values": [
 		{
 			"value": "all",
