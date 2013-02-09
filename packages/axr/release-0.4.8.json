@@ -6,6 +6,7 @@
 			"os": "linux",
 			"arch": "i386",
 			"type": "rpm",
+			"filename": "axr-0.4.8-1.i686.rpm",
 			"url": "https://github.com/downloads/axr/core/axr-0.4.8-1.i686.rpm",
 			"size": 483328
 		},
@@ -13,6 +14,7 @@
 			"os": "linux",
 			"arch": "x86_64",
 			"type": "rpm",
+			"filename": "axr-0.4.8-1.x86_64.rpm",
 			"url": "https://github.com/downloads/axr/core/axr-0.4.8-1.x86_64.rpm",
 			"size": 460800
 		}

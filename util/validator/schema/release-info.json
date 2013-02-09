@@ -33,6 +33,10 @@
 						"enum": ["msi", "exe", "dmg", "deb", "rpm", "tar.gz"],
 						"required": true
 					},
+					"filename": {
+						"type": "string",
+						"required": true
+					},
 					"url": {
 						"type": "string",
 						"pattern": "^\\w+:\/\/",

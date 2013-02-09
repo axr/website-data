@@ -79,6 +79,7 @@ summary.
 				os: (string) values: osx|linux|windows|src,
 				arch: (string) values: x86_64|i386|intel|none,
 				type: (string) values: exe|dmg|deb|rpm|tar.gz,
+				filename: (string),
 				url: (string) absolute URL to the file,
 				size: (int) file size in bytes,
 				os_version_min: (string) minimum required version number.

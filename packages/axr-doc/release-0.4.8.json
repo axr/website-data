@@ -6,7 +6,8 @@
 			"os": "linux",
 			"arch": "none",
 			"type": "rpm",
-			"url": "https://github.com/downloads/axr/core/axr-doc-0.4.8-1.noarch.rpm",
+			"filename": "axr-doc-0.4.8-1.noarch.rpm",
+			"url": "https://github.com/downloads/axr/core/",
 			"size": 649216
 		}
 	]
