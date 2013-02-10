@@ -18,6 +18,7 @@ class ValidatorJSON < ValidatorBase
     validate_syntax
     validate_whitespace
     validate_schema
+    validate_file_name
   end
 
   def validate_syntax
@@ -42,6 +43,32 @@ class ValidatorJSON < ValidatorBase
       JSON::Validator.validate!(schema_file, @data)
     rescue JSON::Schema::ValidationError
       Error.new(@file, nil, $!)
+    end
+  end
+
+  def validate_file_name
+    file_name = Pathname.new(@file).basename.to_s
+
+    /^property-(\w+)\.json$/.match(file_name) do |match|
+      begin
+        data = JSON.parse(@data)
+
+        if data['name'] != match[1]
+          Error.new(@file, nil, "The property name defined in the JSON file does not match the file name")
+        end
+      rescue
+      end
+    end
+
+    /^\.\/hssdoc\/(@\w+)\/info.json$/.match(@file) do |match|
+      begin
+        data = JSON.parse(@data)
+
+        if data['name'] != match[1]
+          Error.new(@file, nil, "The object name defined in json.info does not match the directory name")
+        end
+      rescue
+      end
     end
   end
 end
