@@ -15,9 +15,15 @@ class ValidatorJSON < ValidatorBase
     @file = file
     @data = File.read(file)
 
-    validate_syntax
+    if !validate_syntax
+      return
+    end
+
+    if !validate_schema
+      return
+    end
+
     validate_whitespace
-    validate_schema
     validate_file_name
   end
 
@@ -26,6 +32,7 @@ class ValidatorJSON < ValidatorBase
       JSON.parse(@data)
     rescue JSON::ParserError => e
       Error.new(@file, nil, 'Syntax error')
+      return false
     end
   end
 
@@ -43,6 +50,7 @@ class ValidatorJSON < ValidatorBase
       JSON::Validator.validate!(schema_file, @data)
     rescue JSON::Schema::ValidationError
       Error.new(@file, nil, $!)
+      return false
     end
   end
 
