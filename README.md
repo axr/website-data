@@ -1,9 +1,6 @@
 AXR Project website data
 ------------------------
 
-IMPORTANT NOTICE: This system is still in process of being built and the data in
-this repository is currently not used by the production environment.
-
 This repository contains the AXR Project website pages, blog posts, wiki pages,
 HSS documentation pages and other content.
 
