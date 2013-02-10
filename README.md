@@ -17,6 +17,17 @@ followed as precisely as possible.
   contain long links or code blocks.
 - All the files end with ONE blank line
 
+## Pre-commit hook
+If you want to be sure that you're a good person and never commit broken data,
+it is recommended that you enable our pre-commit hook. The pre-commit hook is a
+simple script that will run every time before you commit and make sure that
+there are no problems with any of the chanegs you made.
+
+To enable the pre-commit hook, you have to either symlink or copy the pre-commit
+script from /util/pre-commit.sh to /.git/hooks/pre-commit:
+
+	ln -s util/pre-commit.sh .git/hooks/pre-commit"
+
 ## The file system structure
 
 The directory structure:
