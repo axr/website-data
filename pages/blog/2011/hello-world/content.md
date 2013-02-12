@@ -68,4 +68,4 @@ As you can see, for the exact same content, depending on how we are going to
 present it to our users, we require different behaviors to make the interface
 work. So, why put it with your markup?
 
-Continue reading: [Hello World, part 2: The Standard](/blog/2011/hello-world-part-2)
+Continue reading: [Hello World, part 2: The Standard](/blog/2011/hello-world-part-2-the-standard)
