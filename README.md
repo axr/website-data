@@ -67,7 +67,7 @@ The directory structure:
 
 		Fields specific to `blog-post` type:
 		date: (string) date in UTC in `YYYY-MM-DD` format (ISO 8601),
-		author_name: (string) author's real name,
+		authors: (string[]) list of the authors' real names,
 		summary_file: (string) name of the file that contains the summary about
 			the post. this file can reside in a subdirectory.
 	}
