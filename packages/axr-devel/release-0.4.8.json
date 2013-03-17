@@ -7,7 +7,7 @@
 			"arch": "i386",
 			"type": "rpm",
 			"filename": "axr-devel-0.4.8-1.i686.rpm",
-			"url": "https://github.com/downloads/axr/core/axr-devel-0.4.8-1.i686.rpm",
+			"url": "http://files.axrproject.org/packages/axr-devel/0.4.8/axr-devel-0.4.8-1.i686.rpm",
 			"size": 70656
 		},
 		{
@@ -15,7 +15,7 @@
 			"arch": "x86_64",
 			"type": "rpm",
 			"filename": "axr-devel-0.4.8-1.x86_64.rpm",
-			"url": "https://github.com/downloads/axr/core/axr-devel-0.4.8-1.x86_64.rpm",
+			"url": "http://files.axrproject.org/packages/axr-devel/0.4.8/axr-devel-0.4.8-1.x86_64.rpm",
 			"size": 70656
 		}
 	]

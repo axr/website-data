@@ -7,7 +7,7 @@
 			"arch": "i386",
 			"type": "deb",
 			"filename": "libaxr_0.4.8_i386.deb",
-			"url": "https://github.com/downloads/axr/core/libaxr_0.4.8_i386.deb",
+			"url": "http://files.axrproject.org/packages/libaxr/0.4.8/libaxr_0.4.8_i386.deb",
 			"size": 612352
 		},
 		{
@@ -15,7 +15,7 @@
 			"arch": "x86_64",
 			"type": "deb",
 			"filename": "libaxr_0.4.8_amd64.deb",
-			"url": "https://github.com/downloads/axr/core/libaxr_0.4.8_amd64.deb",
+			"url": "http://files.axrproject.org/packages/libaxr/0.4.8/libaxr_0.4.8_amd64.deb",
 			"size": 592896
 		},
 		{
@@ -23,7 +23,7 @@
 			"arch": "i386",
 			"type": "tar.gz",
 			"filename": "libaxr-0.4.8-linux-i386.tar.gz",
-			"url": "https://github.com/downloads/axr/core/libaxr-0.4.8-linux-i386.tar.gz",
+			"url": "http://files.axrproject.org/packages/libaxr/0.4.8/libaxr-0.4.8-linux-i386.tar.gz",
 			"size": 2161664
 		},
 		{
@@ -31,7 +31,7 @@
 			"arch": "x86_64",
 			"type": "tar.gz",
 			"filename": "libaxr-0.4.8-linux-x86_64.tar.gz",
-			"url": "https://github.com/downloads/axr/core/libaxr-0.4.8-linux-x86_64.tar.gz",
+			"url": "http://files.axrproject.org/packages/libaxr/0.4.8/libaxr-0.4.8-linux-x86_64.tar.gz",
 			"size": 2148352
 		},
 		{
@@ -39,7 +39,7 @@
 			"arch": "none",
 			"type": "tar.gz",
 			"filename": "libaxr-0.4.8-src.tar.gz",
-			"url": "https://github.com/downloads/axr/core/libaxr-0.4.8-src.tar.gz",
+			"url": "http://files.axrproject.org/packages/libaxr/0.4.8/libaxr-0.4.8-src.tar.gz",
 			"size": 68670464
 		}
 	]

@@ -7,7 +7,7 @@
 			"arch": "i386",
 			"type": "deb",
 			"filename": "libaxr-dev_0.4.8_i386.deb",
-			"url": "https://github.com/downloads/axr/core/libaxr-dev_0.4.8_i386.deb",
+			"url": "http://files.axrproject.org/packages/libaxr-dev/0.4.8/libaxr-dev_0.4.8_i386.deb",
 			"size": 72704
 		},
 		{
@@ -15,7 +15,7 @@
 			"arch": "x86_64",
 			"type": "deb",
 			"filename": "libaxr-dev_0.4.8_amd64.deb",
-			"url": "https://github.com/downloads/axr/core/libaxr-dev_0.4.8_amd64.deb",
+			"url": "http://files.axrproject.org/packages/libaxr-dev/0.4.8/libaxr-dev_0.4.8_amd64.deb",
 			"size": 71680
 		}
 	]

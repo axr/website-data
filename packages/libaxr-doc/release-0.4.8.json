@@ -7,7 +7,7 @@
 			"arch": "none",
 			"type": "deb",
 			"filename": "libaxr-doc_0.4.8_all.deb",
-			"url": "https://github.com/downloads/axr/core/libaxr-doc_0.4.8_all.deb",
+			"url": "http://files.axrproject.org/packages/libaxr-doc/0.4.8/libaxr-doc_0.4.8_all.deb",
 			"size": 1474560
 		}
 	]
