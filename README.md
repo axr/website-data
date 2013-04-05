@@ -11,8 +11,12 @@ followed as precisely as possible.
 ## A few things to remember when using this repository
 - All the commit messages MUST be in present tense
 - The line length limit is 80 characters. This rule can be ignored on lines that
-  contain long links or code blocks.
+  contain long links[1] or code blocks. The line length limit does not apply to
+  JSON files.
 - All the files end with ONE blank line
+
+[1] Long links and images can ignore the line length limit only if they are the
+very last thing on the line.
 
 ## Pre-commit hook
 If you want to be sure that you're a good person and never commit broken data,
