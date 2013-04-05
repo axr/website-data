@@ -1,2 +1,2 @@
-It corresponds to the sum of the width and the eventual horizontal outer
+It corresponds to the sum of the [width](/@container#width) and the horizontal outer
 margins.

@@ -2,14 +2,17 @@
 	"name": "shape",
 	"values": [
 		{
-			"value": "@circle"
+			"value": "@circle",
+			"since_version": "0.4"
 		},
 		{
-			"value": "@polygon"
+			"value": "@polygon",
+			"since_version": "0.4"
 		},
 		{
 			"value": "@rectangle",
-			"is_default": true
+			"is_default": true,
+			"since_version": "0.4"
 		}
 	]
 }

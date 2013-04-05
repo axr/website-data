@@ -1,5 +1,6 @@
 {
 	"name": "outerWidth",
 	"readonly": true,
+	"permanent": true,
 	"description_file": "property-outerWidth.md"
 }
