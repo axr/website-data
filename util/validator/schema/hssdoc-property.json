@@ -9,6 +9,9 @@
 		"readonly": {
 			"type": "boolean"
 		},
+		"permanent": {
+			"type": "boolean"
+		},
 		"many_values": {
 			"type": "boolean"
 		},
