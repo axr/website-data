@@ -3,12 +3,13 @@ class ValidatorBase
     line_number = 1
 
     @data.split("\n").each do |line|
-      if line =~ /\s$/
-        Error.new(@file, line_number, 'Trailing whitespace detected')
-      end
-
       if line.include? "\r"
         Error.new(@file, line_number, 'CR detected')
+        next
+      end
+
+      if line =~ /\s$/
+        Error.new(@file, line_number, 'Trailing whitespace detected')
       end
 
       line_number += 1
