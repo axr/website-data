@@ -8,17 +8,20 @@
 			"value": "@rgb"
 		},
 		{
-			"value": "black"
+			"value": "@cmyk"
 		},
 		{
-			"value": "no",
+			"value": "@hsb"
+		},
+		{
+			"value": "black",
 			"is_default": true
 		},
 		{
-			"value": "transparent"
+			"value": "white"
 		},
 		{
-			"value": "white"
+			"value": "transparent"
 		}
 	]
 }

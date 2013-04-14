@@ -1,3 +1,11 @@
 {
-	"name": "offset"
+	"name": "offset",
+	"values": [
+		{
+			"value": "ℕ"
+		},
+		{
+			"value": "-ℕ"
+		}
+	]
 }

@@ -1,0 +1,9 @@
+{
+	"name": "border",
+	"values": [
+		{
+			"value": "@line",
+			"is_default": true
+		}
+	]
+}

@@ -1,3 +1,3 @@
 Shorthand Order:
 
-	{ <color>; <size>; <style>; <segments>; <position>; <offset>; }
+	{ <color>; <size>; <segments>; <style>; <position>; <offset>; }

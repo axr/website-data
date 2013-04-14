@@ -1,3 +1,8 @@
 {
-	"name": "size"
+	"name": "size",
+	"values": [
+		{
+			"value": "ℕ"
+		}
+	]
 }
