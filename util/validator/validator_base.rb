@@ -7,6 +7,10 @@ class ValidatorBase
         Error.new(@file, line_number, 'Trailing whitespace detected')
       end
 
+      if line.include? "\r"
+        Error.new(@file, line_number, 'CR detected')
+      end
+
       line_number += 1
     end
 
