@@ -53,6 +53,20 @@
 					"os_version_max": {
 						"type": "string",
 						"pattern": "^\\d+(\\.\\d+){0,3}$"
+					},
+					"checksums": {
+						"type": "object",
+						"additionalProperties": false,
+						"properties": {
+							"md5": {
+								"type": "string",
+								"pattern": "^[0-9a-f]{32}$"
+							},
+							"sha1": {
+								"type": "string",
+								"pattern": "^[0-9a-f]{40}$"
+							}
+						}
 					}
 				}
 			}

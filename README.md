@@ -97,7 +97,11 @@ summary.
 				os_version_min: (string) minimum required version number.
 					default: `null`,
 				os_version_max: (string) maximum required version number.
-					default: `null`
+					default: `null`,
+				checksums: {
+					md5: (string) MD5 checksum of the file,
+					sha1: (string) SHA1 checksum of the file
+				}
 			},
 			...
 		]
