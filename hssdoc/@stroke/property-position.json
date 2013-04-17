@@ -1,0 +1,15 @@
+{
+	"name": "position",
+	"values": [
+		{
+			"value": "outside"
+		},
+		{
+			"value": "inside"
+		},
+		{
+			"value": "center",
+			"is_default": true
+		}
+	]
+}

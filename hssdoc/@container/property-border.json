@@ -2,7 +2,7 @@
 	"name": "border",
 	"values": [
 		{
-			"value": "@line",
+			"value": "@stroke",
 			"is_default": true
 		}
 	]
