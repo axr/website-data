@@ -1,21 +1,13 @@
 {
 	"name": "decoration",
+	"many_values": true,
 	"values": [
-		{
-			"value": "@line"
-		},
 		{
 			"value": "no",
 			"is_default": true
 		},
 		{
-			"value": "overline"
-		},
-		{
-			"value": "strike"
-		},
-		{
-			"value": "underline"
+			"value": "@line"
 		}
 	]
 }
