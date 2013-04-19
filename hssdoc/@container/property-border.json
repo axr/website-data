@@ -1,9 +1,13 @@
 {
 	"name": "border",
+	"many_values": true,
 	"values": [
 		{
-			"value": "@stroke",
+			"value": "no",
 			"is_default": true
+		},
+		{
+			"value": "@stroke"
 		}
 	]
 }
