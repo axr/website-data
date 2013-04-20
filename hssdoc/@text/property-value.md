@@ -5,16 +5,20 @@ offers even more control over what's being replaced.
 	root element
 	{
 		// this replaces the current content text by "string"
-		text: @text { text: "string"; };
+		text: @text { value: "string"; };
+		// which is equivalent to
+		text.value: "string";
+		// for convenience a shorthand exists as well
+		text: "string";
 	}
 	// which is equivalent to
 	root element > *
 	{
-		text: "string";
+		value: "string";
 	}
 
 	root element >> :last
 	{
 		// this replaces the last word
-		text: "string";
+		value: "string";
 	}

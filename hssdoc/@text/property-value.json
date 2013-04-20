@@ -1,6 +1,6 @@
 {
-	"name": "text",
-	"description_file": "property-text.md",
+	"name": "value",
+	"description_file": "property-value.md",
 	"values": [
 		{
 			"value": "<string>"
