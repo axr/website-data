@@ -36,5 +36,5 @@ There will be an automatic system for deploying the master branch to the
 production site. Right now the deployment is done manually by the web team
 leader.
 
-Before any deployment the updated pages need to be tested on at least IE
-, Firefox and Chrome.
+Before any deployment the updated pages need to be tested on at least IE,
+Firefox and Chrome.
