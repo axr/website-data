@@ -2,10 +2,8 @@
 	"name": "color",
 	"values": [
 		{
-			"value": "#RRGGBBAA"
-		},
-		{
-			"value": "@rgb"
+			"value": "@rgb",
+			"since_version": "0.4.2"
 		},
 		{
 			"value": "@cmyk"
@@ -14,14 +12,21 @@
 			"value": "@hsb"
 		},
 		{
+			"value": "#RRGGBBAA",
+			"since_version": "0.4.8"
+		},
+		{
 			"value": "black",
+			"since_version": "0.4.8",
 			"is_default": true
 		},
 		{
-			"value": "white"
+			"value": "white",
+			"since_version": "0.4.8"
 		},
 		{
-			"value": "transparent"
+			"value": "transparent",
+			"since_version": "0.4.8"
 		}
 	]
 }

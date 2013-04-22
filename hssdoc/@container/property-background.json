@@ -7,6 +7,12 @@
 			"since_version": "0.4.2"
 		},
 		{
+			"value": "@cmyk"
+		},
+		{
+			"value": "@hsb"
+		},
+		{
 			"value": "#RRGGBBAA",
 			"since_version": "0.4.8"
 		},

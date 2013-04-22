@@ -2,13 +2,16 @@
 	"name": "position",
 	"values": [
 		{
-			"value": "outside"
+			"value": "outside",
+			"since_version": "0.4.9"
 		},
 		{
-			"value": "inside"
+			"value": "inside",
+			"since_version": "0.4.9"
 		},
 		{
 			"value": "center",
+			"since_version": "0.4.9",
 			"is_default": true
 		}
 	]

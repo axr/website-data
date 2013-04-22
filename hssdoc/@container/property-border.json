@@ -4,10 +4,12 @@
 	"values": [
 		{
 			"value": "no",
+			"since_version": "0.4.8",
 			"is_default": true
 		},
 		{
-			"value": "@stroke"
+			"value": "@stroke",
+			"since_version": "0.4.9"
 		}
 	]
 }

@@ -4,24 +4,24 @@
 	"values": [
 		{
 			"value": "all",
-			"since_version": "0.4.8",
+			"since_version": "0.4.9",
 			"is_default": true
 		},
 		{
 			"value": "bottom",
-			"since_version": "0.4.8"
+			"since_version": "0.4.9"
 		},
 		{
 			"value": "left",
-			"since_version": "0.4.8"
+			"since_version": "0.4.9"
 		},
 		{
 			"value": "right",
-			"since_version": "0.4.8"
+			"since_version": "0.4.9"
 		},
 		{
 			"value": "top",
-			"since_version": "0.4.8"
+			"since_version": "0.4.9"
 		}
 	]
 }
