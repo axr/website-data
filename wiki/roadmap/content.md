@@ -26,7 +26,7 @@
 
 ## Version 0.6
 
-- << combinator
+- ancestor combinator
 - z property
 - level property
 - :has() and $
@@ -54,10 +54,10 @@
 ### 0.5.4
 
 - @self
-- obj(), num(), str() and kwd()
+- num(), str() and kwd()
 - value selector
 - :nth() and :nthChild()
-- offset property
+- @stroke offset property
 
 ### 0.5.3
 
@@ -93,6 +93,7 @@
 
 ### 0.5.0
 
+- obj()
 - cascade property
 - ::focus
 - focusable, next and previous properties
