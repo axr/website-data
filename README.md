@@ -128,12 +128,18 @@ integers. Example: `1.0.7`.
 				be absent if the value has not been implemented
 			},
 			...
+		],
+		text_scope: [
+			(string) values: "line", "word", "character"
+			...
 		]
 	}
 
 Note: The property name in the "name" field and in the file name must be
 identical.
 
+Note: The `text_scope` field should only be used for properties that belong to
+the @text object.
 
 ### hssdoc/@$OBJECT_NAME/info.json
 

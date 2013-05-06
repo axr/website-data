@@ -37,6 +37,14 @@
 					}
 				}
 			}
+		},
+		"text_scope": {
+			"type": "array",
+			"additionalItems": false,
+			"items": {
+				"type": "string",
+				"enum": ["line", "word", "character"]
+			}
 		}
 	}
 }
