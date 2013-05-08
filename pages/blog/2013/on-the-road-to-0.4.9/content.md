@@ -16,9 +16,11 @@ On a related note we currently have two vacant positions:
 2. a layout test specialist
 
 If you have been following us on Twitter you should already know that we were
-registered to the *best new web technology* category of the [.net awards](http://www.thenetawards.com/).
+registered to the *best new web technology* category of the
+[.net awards](http://www.thenetawards.com/).
 Miro is going to attend the ceremony and I might tag along depending on my mood.
-We have some fierce competition, notably Dart (Google) and TypeScript (Microsoft).
+We have some fierce competition, notably Dart (Google) and TypeScript
+(Microsoft).
 
 A quick look @ some unknown features
 -
