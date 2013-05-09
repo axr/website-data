@@ -87,8 +87,8 @@
 - /type
 - /each 1/2
 - > combinator
-- Basic text module
-- Basic text styling module
+- [Basic text module](http://wiki.axrproject.org/specification/modules#text)
+- [Basic text styling module](http://wiki.axrproject.org/specification/modules#text-styling)
 - @font read-only properties
 
 ### 0.5.0
@@ -117,7 +117,7 @@
 - Radial gradient
 - property grouping
 - anchorX and anchorY properties
-- @container wrapDirection
+- <del>@container wrapDirection</del>
 - <del>position and segments</del>
 - <del>::press 1/2</del>
 
