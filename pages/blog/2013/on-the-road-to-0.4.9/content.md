@@ -65,8 +65,8 @@ element
 </code></pre>
 Related issue: [#132](https://github.com/axr/core/issues/132)
 ### Keyboard navigation
-You can switch the focusability of an element by using the `focusable` property
-and the `previous` and `next` properties to navigate back and forth between
+Provided that the focusability of the current element has been switched on you can
+use the `previous` and `next` properties to navigate between other
 focusable elements. If `sel()` is used to target multiple elements or
 an unfocusable element the focus won't change. In the following example we
 assume `element` is currently focused.
