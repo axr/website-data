@@ -3,8 +3,8 @@
 Where we're @
 -
 
-On the specification front the [HSS documentation](http://hss.axrproject.org/)
-is coming along nicely thanks to the effort of Ragnis and yours truly. The core
+On the specification front, the [HSS documentation](http://hss.axrproject.org/)
+is coming along nicely, thanks to the effort of Ragnis and yours truly. The core
 team has resolved 25% of version 0.4.9's issues. In this regard we are currently
 severely understaffed: we only have two active programmers. Consequently we are
 looking for C++ programmers—senior would be a plus but a junior would feel at
@@ -18,7 +18,8 @@ On a related note we currently have two vacant positions:
 If you have been following us on Twitter you should already know that we were
 registered to the *best new web technology* category of the
 [.net awards](http://www.thenetawards.com/).
-Miro is going to attend the ceremony and I might tag along depending on my mood.
+Miro is going to attend the ceremony and I will tag along, granted that I
+manage to cross the border.
 We have some fierce competition, notably Dart (Google) and TypeScript
 (Microsoft).
 
@@ -65,8 +66,8 @@ element
 </code></pre>
 Related issue: [#132](https://github.com/axr/core/issues/132)
 ### Keyboard navigation
-Provided that the focusability of the current element has been switched on you can
-use the `previous` and `next` properties to navigate between other
+Provided that the focusability of the current element has been switched on you
+can use the `previous` and `next` properties to navigate between other
 focusable elements. If `sel()` is used to target multiple elements or
 an unfocusable element the focus won't change. In the following example we
 assume `element` is currently focused.
@@ -77,10 +78,11 @@ element
     focusable: yes;
     //tabbing would focus the next element focusable
     next: auto;
-    //tabbing would focus the element which lead to this one
-    next: return;
-    //tabbing backwards would focus the targetted element
-    previous: sel(&lt;selector&gt;);
+    //tabbing would focus the targetted element
+    next: sel(&lt;selector&gt;);
+    //tabbing backwards would focus the element which lead to this one
+    //which is not always the immediately preceding focusable element
+    previous: return;
 }
 </code></pre>
 
