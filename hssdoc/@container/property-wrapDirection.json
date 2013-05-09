@@ -2,16 +2,20 @@
 	"name": "wrapDirection",
 	"values": [
 		{
-			"value": "btt"
+			"value": "btt",
+			"since_version": "0.4.9"
 		},
 		{
-			"value": "ltr"
+			"value": "ltr",
+			"since_version": "0.4.9"
 		},
 		{
-			"value": "rtl"
+			"value": "rtl",
+			"since_version": "0.4.9"
 		},
 		{
 			"value": "ttb",
+			"since_version": "0.4.9",
 			"is_default": true
 		}
 	]
