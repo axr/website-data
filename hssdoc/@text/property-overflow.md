@@ -1,3 +1,5 @@
+
+	// language=hss
 	element > *:last
 	{
 		// prerequisite

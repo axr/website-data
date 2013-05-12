@@ -2,6 +2,7 @@ The isA property permits to apply properties from one or several object to an
 element. Keep in mind that the order of the objects matters: the rightmost
 object is the last in the cascade (relevant if they share the same properties).
 
+	// language=hss
 	element
 	{
 		// assuming these two container objects are defined,

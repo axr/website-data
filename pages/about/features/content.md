@@ -129,6 +129,7 @@ Since the use of URLs as namespaces can be quite cumbersome, we propose the use
 of Uniform Resource Names, or URNs, using Java's reverse domain notation. The
 following example uses a fictitious “document” namespace published by axr.vg:
 
+	<!-- language=xml -->
 	<document xmlns="urn:vg.axr.document">
 		<!-- more content here -->
 	</document>
@@ -137,6 +138,7 @@ Namespaces could have a tree-like structure. For example, the "document"
 namespace could have a sub-namespace called "metadata". You would access it like
 this:
 
+	<!-- language=xml -->
 	<document xmlns="urn:vg.axr.document.metadata">
 		<!-- more content here -->
 	</document>
@@ -151,6 +153,7 @@ As an example, imagine you have a bookstore and you want to show a shelf of
 books. Each book could be in the namespace “book” published by, say,
 worldbooks.com. You’d express it like this:
 
+	<!-- language=xml -->
 	<catalog xmlns="urn:com.worldbooks.book">
 		<book>
 			<author>John Appleseed</author>
@@ -176,6 +179,7 @@ will be much more organized, thus reducing maintenance.
 
 For example:
 
+	// language=hss
 	//define an object of type "linearGradient" with the name "boxBg"
 	@linearGradient boxBg
 	{
@@ -227,6 +231,7 @@ or creating new non-semantic ones as needed. The structure of your content
 doesn’t necessarily reflect the structure of a visual layout. Why should you
 create non-semantic elements in your markup just to achieve a visual result?
 
+	// language=hss
 	//some of the things you can do:
 	myXMLRoot
 	{

@@ -1,4 +1,5 @@
 
+	// language=hss
 	// this sets the innerHeight to 100 HSS points
 	height: 100;
 

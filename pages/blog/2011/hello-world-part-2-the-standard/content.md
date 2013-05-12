@@ -31,6 +31,7 @@ just write a list of `<book>` elements, with their corresponding inner elements
 defining all the information that go with that book. For example, this would be
 the file http://examplebookstore.com/books.xml:
 
+	<!-- language=xml -->
 	<?xml version="1.0" encoding="UTF-8"?>
 	<books xmlns="urn:vg.axr.book">
 		<book>
@@ -63,6 +64,7 @@ will load a file called "style.hss" in the same folder as the XML file. If it
 should load it from anywhere else, you tell it with the following XML
 instruction (higlighted in bold):
 
+	<!-- language=xml -->
 	<?xml version="1.0" encoding="UTF-8"?>
 	<?xml-stylesheet type="application/hss" src="path/to/file.hss"?>
 	<books xmlns="urn:vg.axr.book">
@@ -81,6 +83,7 @@ CMS) all the pages that you want to have indexed. Nowadays, the usual way is to
 put it the reference in the robots.txt file, but we suggest an XML instruction
 to link to it. In the next example, you can see how this could done:
 
+	<!-- language=xml -->
 	<?xml version="1.0" encoding="UTF-8"?>
 	<?xml-sitemap type="text/xml" src="path/to/sitemap.xml"?>
 	<books xmlns="urn:vg.axr.book">
@@ -139,6 +142,7 @@ in the XML file is a tree of elements, why not apply styles using a tree as
 well? It is both clearer and has better performance, since not all elements have
 to be matched against each selector.
 
+	// language=hss
 	// we target the outermost element
 	books
 	{
@@ -160,6 +164,7 @@ stymbol @ represents an object. Immediately afterwards comes the object type
 (it can also be derived from context if you omit it), and optionally a name.
 Then, you define a block of properties like you would in a normal rule.
 
+	// language=hss
 	books book
 	{
 		border: @lineBorder {
@@ -179,6 +184,7 @@ Objects can be given a name when defined, and then reused later. This works for
 objects you'd use to set fonts, borders, margins, or even use containers as
 templates for your elements.
 
+	// language=hss
 	// define a font object called 'myFont'
 	@font myFont
 	{
@@ -210,6 +216,7 @@ example. Functions return a value depending on its arguments, and can be always
 used to set the value, no matter the type (numeric, string, keyword, object,
 etc).
 
+	// language=hss
 	// in the XML, the topmost element would be called document
 	document
 	{
@@ -241,6 +248,7 @@ are selecting all elements, which makes it easier to read. The following are
 some examples of what you could do with filters, but for simplicity, without
 applying any properties, and leaving the block empty.
 
+	// language=hss
 	books
 	{
 		// selects the first element
@@ -256,6 +264,7 @@ applying any properties, and leaving the block empty.
 In contrast to how it works in CSS, all descendant elements are selected
 together and then filtered down. So, in the example above, where we did this:
 
+	// language=hss
 	// selects the first child element (amongst all books)
 	book :first {}
 
@@ -264,6 +273,7 @@ elements inside them, and then the first one is chosen. If instead you want the
 first one of each element (which very well may be the case) you can split that
 selection with the :each filter, like this:
 
+	// language=hss
 	// selects the first element inside each book
 	book:each :first {}
 
@@ -281,6 +291,7 @@ withing the presentation layer, reorder them and shuffle them around, so that
 they fit your visual design. On top of that, you can use powerful alignment
 tools, making advanced layouts a breeze.
 
+	// language=hss
 	books
 	{
 		// distributes content element horizontally
@@ -334,6 +345,7 @@ curves, arcs and lines, that can be applied to any container. Thanks to the
 modular syntax, you can define a shape once and then apply it wherever it is
 needed.
 
+	// language=hss
 	// define a shape of a house
 	@path houseIcon
 	{
@@ -365,6 +377,7 @@ the presentation layer. Many basic behaviors will be covered by HSS objects
 directly, such as changing a value on another object or loading a file, but if
 the natively provided behaviors aren't enough, JavaScript can be used, too.
 
+	// language=hss
 	// loading another page when clicked
 	myLinkElem
 	{

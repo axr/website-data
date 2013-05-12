@@ -1,4 +1,5 @@
 
+	// language=hss
 	// this sets the innerWidth to 100 HSS points
 	width: 100;
 

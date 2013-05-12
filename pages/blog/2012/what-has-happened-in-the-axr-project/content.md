@@ -34,6 +34,7 @@ Both "sides" and "angle" properties accept numbers. In the latter, it is
 measured in degrees in a 360º circle. So, for example, opening this file in the
 prototype:
 
+	// language=hss
 	// always targets root
 	*
 	{
@@ -69,6 +70,7 @@ semantics are not an issue, being it a purely presentational feature.
 
 For example:
 
+	// language=hss
 	// always targets root
 	*
 	{
@@ -86,6 +88,7 @@ You can now get your lips wet with the first pre-preview of what using the HSS
 framework will be like (because stuff is bound to change still). Consider this
 example HSS file:
 
+	// language=hss
 	// import the framework
 	#import UIFramework;
 
@@ -120,6 +123,7 @@ selector chain), which makes common copy and paste operations much easier.
 
 Suppose we have the following XML:
 
+	<!-- language=xml -->
 	<?xml version="1.0" encoding="UTF-8" ?>
 	<?xml-stylesheet type="application/x-hss" src="style.hss" version="1.0" ?>
 	<document>
@@ -131,6 +135,7 @@ Suppose we have the following XML:
 
 And the following HSS file called style.hss:
 
+	// language=hss
 	// always targets root
 	*
 	{
