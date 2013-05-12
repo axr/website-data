@@ -79,7 +79,7 @@ The directory structure:
 
 Notes specific to `blog-post` type:
 - If no summary file is specified, you can insert `<!--more-->` anywhere in the
-  content file and everything after that will be automatically used as the
+  content file and everything before that will be automatically used as the
   summary.
 - Blog posts don't currently support auto-generated tables of contents
 
