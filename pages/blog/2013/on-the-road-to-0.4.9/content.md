@@ -83,7 +83,7 @@ assume `element` is currently focused.
 		//tabbing would focus the next element focusable
 		next: auto;
 		//tabbing would focus the targetted element
-		next: sel(&lt;selector&gt;);
+		next: sel(<selector>);
 		//tabbing backwards would focus the element which lead to this one
 		//which is not always the immediately preceding focusable element
 		previous: return;
