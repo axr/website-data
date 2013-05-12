@@ -30,6 +30,9 @@
 		},
 		"summary_file": {
 			"type": "string"
+		},
+		"generate_toc": {
+			"type": "boolean"
 		}
 	}
 }

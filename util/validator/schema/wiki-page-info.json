@@ -8,6 +8,9 @@
 		},
 		"file": {
 			"type": "string"
+		},
+		"generate_toc": {
+			"type": "boolean"
 		}
 	}
 }

@@ -68,6 +68,7 @@ The directory structure:
 		type: (string) type of the page. values: page|blog-post,
 		title: (string) title for the page,
 		file: (string) name of the content file. default: `content.md`,
+		generate_toc: (boolean) auto-generate a table of contents,
 
 		Fields specific to `blog-post` type:
 		date: (string) date in UTC in `YYYY-MM-DD` format (ISO 8601),
@@ -77,9 +78,10 @@ The directory structure:
 	}
 
 Notes specific to `blog-post` type:
-If no summary file is specified, you can insert `<!--more-->` anywhere in the
-content file and everything after that will be automatically used as the
-summary.
+- If no summary file is specified, you can insert `<!--more-->` anywhere in the
+  content file and everything after that will be automatically used as the
+  summary.
+- Blog posts don't currently support auto-generated tables of contents
 
 ### release-$VERSION.json
 
@@ -119,6 +121,7 @@ integers. Example: `1.0.7`.
 		many_values: (boolean) whether this property supports many values.
 			this field is optional. default: 0,
 		description_file: name of the content file. this field is optional,
+		generate_toc: (boolean) auto-generate a table of contents,
 		values: [
 			{
 				value: (string),
