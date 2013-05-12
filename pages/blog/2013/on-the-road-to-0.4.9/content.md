@@ -27,7 +27,7 @@ A quick look @ some unknown features
 I am going to elaborate on some obscure intricacies of the HSS language which
 weren't documented (until now).
 
-## Anchors
+### Anchors
 **Disclaimer**: it won't work until [#233](https://github.com/axr/core/issues/233)
 is fixed. And `@request` might be renamed at a later time.
 
