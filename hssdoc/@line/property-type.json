@@ -1,0 +1,15 @@
+{
+	"name": "type",
+	"values": [
+		{
+			"value": "overline"
+		},
+		{
+			"value": "underline",
+			"is_default": true
+		},
+		{
+			"value": "strike"
+		}
+	]
+}

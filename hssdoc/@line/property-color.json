@@ -1,0 +1,27 @@
+{
+	"name": "color",
+	"values": [
+		{
+			"value": "@rgb"
+		},
+		{
+			"value": "@cmyk"
+		},
+		{
+			"value": "@hsb"
+		},
+		{
+			"value": "#RRGGBBAA"
+		},
+		{
+			"value": "black",
+			"is_default": true
+		},
+		{
+			"value": "white"
+		},
+		{
+			"value": "transparent"
+		}
+	]
+}
