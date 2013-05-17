@@ -88,6 +88,7 @@
 - :[]
 - :empty 2/2
 - attr property
+- custom properties
 - /type
 - /each 1/2
 - > combinator
@@ -119,7 +120,7 @@
 ### 0.4.9
 
 - Radial gradient
-- property grouping
+- <del>property grouping</del>
 - anchorX and anchorY properties
 - <del>@container wrapDirection</del>
 - <del>position and segments</del>
