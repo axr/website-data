@@ -28,11 +28,12 @@
 
 - ancestor combinator
 - z property
-- level property
+- mask property
+- /attr()
 - :has() and $
 - ::drag and ::target()
 - draggable and targetable
-- ![] and grouping brackets
+- grouping brackets
 - :is() and :oneIs()
 - Advanced text module 2/2
 - Advanced text styling module 2/2
@@ -45,15 +46,17 @@
 
 ### 0.5.5
 
-- Behaviors / events
-- mask property
-- /attr()
+- events
+- depth property
+- /level
 - Color modifiers
 - ::press 2/2
+- concatenation
 
 ### 0.5.4
 
 - @self
+- @window title property
 - num(), str() and kwd()
 - value selector
 - :nth() and :nthChild()
@@ -67,6 +70,7 @@
 - Patterns
 - round(), ceil() and floor()
 - max(), min() and bound()
+- @window + icon property
 
 ### 0.5.2
 
