@@ -3,7 +3,7 @@
 	"description_file": "property-attr.md",
 	"values": [
 		{
-			"value": "@value"
+			"value": "@attribute"
 		},
 		{
 			"value": "no",
