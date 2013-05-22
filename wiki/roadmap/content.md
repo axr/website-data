@@ -116,6 +116,7 @@
 - ref() modifiers
 - #wrap
 - dot notation
+- break property
 
 ### 0.4.9
 
