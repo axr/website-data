@@ -126,9 +126,11 @@ integers. Example: `1.0.7`.
 			{
 				value: (string),
 				is_default: (boolean) default: 0,
-				since_version: (string) version of the core in which this
-				value was implemented for this property. this field may
-				be absent if the value has not been implemented
+					since_version: (string) version of the core in which this
+					value was implemented for this property. this field may
+					be absent if the value has not been implemented,
+				link_to: (string) format: `@OBJECT` or
+					`@OBJECT<PROPERTY>` or `@OBJECT<PROPERTY>[VALUE]`
 			},
 			...
 		],

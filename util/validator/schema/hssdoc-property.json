@@ -34,6 +34,10 @@
 					"since_version": {
 						"type": "string",
 						"pattern": "^\\d+(\\.\\d+){0,3}$"
+					},
+					"link_to": {
+						"type": "string",
+						"pattern": "^\\d+(\\.\\d+){0,3}$"
 					}
 				}
 			}
