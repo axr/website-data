@@ -5,36 +5,46 @@ code.
 Here are some basic rules:
 
 - Never use fast-forward merge. This can be done by supplying the `--no-ff` flag
-  when merging.
-- Use "Close #<issue number>" in the commit message to automagically close the
+  when merging
+- Use `Close #<issue number>` in the commit message to automagically close the
   issue
-- Use present tense in commit messages
+- Your commit messages must use the imperative, present tense (as if you are
+  giving orders to the codebase to change its behaviour): "change", not
+  "changed" or "changes"
 - Include issue reference if possible
 - Commit messages must be descriptive and contain more than two words
 
 ## Feature branches
 
-It is important to keep develop branch always working. It means that no breaking
-changes are allowed on develop. If you are implementing something that takes
-long time to do, create a feature branch.
+It is important to keep the develop branch always working and stable. That means
+that no breaking changes are allowed on develop. If you are implementing a
+bigger feature over a longer period of time, create a separate branch for that
+feature.
 
 If the feature is directly connected to an issue, then the branch name should be
-in `issue-N` format, where N is the issue number, but any branch name except
-`master` and `develop` is allowed.
+in `issue-<issue number>` format, but any branch name except `master` and
+`develop` is allowed.
 
 When you have finished implementing the feature and think it is stable enough,
-it can be merged into develop branch. (Remember to use non-fast-forward merge)
+you can merge it into develop. (Remember to use non-fast-forward merge)
 
 ## Hotfixes
 
-To do a hotfix, all you need to do is merge your commit(s) into master. Just
-make sure that your hotfix is stable and will not break anything.
+There are no such things as hotfixes. You will simply do your change on develop
+and then merge develop into master from where it will be deployed.
 
 ## Deployment
 
-There will be an automatic system for deploying the master branch to the
-production site. Right now the deployment is done manually by the web team
-leader.
+The master branch represents production state. That means that in order to
+deploy the code at develop, all you need to do is merge develop into master and
+get someone to initiate the deployment process.
 
-Before any deployment the updated pages need to be tested on at least IE,
-Firefox and Chrome.
+In the future we will have an automatic deployment system in place. Then
+deploying will be as easy as:
+
+	git checkout master
+	git merge --no-ff -S develop
+
+This will merge develop into master and create a signed commit. In order for the
+automatic deployment to work, your GPG key must be signed by our deployment
+key (87B4122D).
