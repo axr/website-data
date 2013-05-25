@@ -1,5 +1,6 @@
 {
 	"name": "font",
+	"text_scope": ["line", "word", "character"],
 	"values": [
 		{
 			"value": "@font"

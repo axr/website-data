@@ -1,5 +1,5 @@
 {
-	"name": "margin",
+	"name": "padding",
 	"text_scope": ["line", "word", "character"],
 	"many_values": true,
 	"values": [

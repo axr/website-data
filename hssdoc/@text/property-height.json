@@ -1,5 +1,6 @@
 {
 	"name": "height",
+	"text_scope": ["line"],
 	"values": [
 		{
 			"value": "<number>"

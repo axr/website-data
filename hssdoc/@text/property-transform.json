@@ -1,5 +1,6 @@
 {
 	"name": "transform",
+	"text_scope": ["line", "word", "character"],
 	"values": [
 		{
 			"value": "capitalize"

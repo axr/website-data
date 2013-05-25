@@ -1,5 +1,6 @@
 {
 	"name": "z",
+	"text_scope": ["line", "word", "character"],
 	"values": [
 		{
 			"value": "ℤ"

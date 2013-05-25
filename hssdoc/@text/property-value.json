@@ -1,5 +1,6 @@
 {
 	"name": "value",
+	"text_scope": ["line", "word", "character"],
 	"description_file": "property-value.md",
 	"values": [
 		{

@@ -1,5 +1,6 @@
 {
 	"name": "background",
+	"text_scope": ["line", "word", "character"],
 	"values": [
 		{
 			"value": "#RRGGBBAA"

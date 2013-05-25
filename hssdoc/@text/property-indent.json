@@ -1,5 +1,6 @@
 {
 	"name": "indent",
+	"text_scope": ["line", "word", "character"],
 	"values": [
 		{
 			"value": "ℕ"

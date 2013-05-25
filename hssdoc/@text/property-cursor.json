@@ -1,5 +1,6 @@
 {
 	"name": "cursor",
+	"text_scope": ["line", "word", "character"],
 	"description_file": "property-cursor.md",
 	"values": [
 		{

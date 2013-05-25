@@ -1,5 +1,6 @@
 {
 	"name": "wrap",
+	"text_scope": ["line"],
 	"values": [
 		{
 			"value": "auto",

@@ -1,5 +1,6 @@
 {
 	"name": "wordSpacing",
+	"text_scope": ["line"],
 	"values": [
 		{
 			"value": "ℕ"

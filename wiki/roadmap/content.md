@@ -41,6 +41,7 @@
 - Initial JS support
 - Transformations (affine: translate, rotate, scale, skew/shear; perspective)
 - Blending modes
+- Radial gradient 2/2
 
 ## Version 0.5
 
@@ -120,7 +121,7 @@
 
 ### 0.4.9
 
-- Radial gradient
+- Radial gradient 1/2
 - <del>property grouping</del>
 - anchorX and anchorY properties
 - <del>@container wrapDirection</del>

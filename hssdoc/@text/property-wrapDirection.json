@@ -1,5 +1,6 @@
 {
 	"name": "wrapDirection",
+	"text_scope": ["line"],
 	"values": [
 		{
 			"value": "btt"

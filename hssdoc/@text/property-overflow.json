@@ -1,5 +1,6 @@
 {
 	"name": "overflow",
+	"text_scope": ["line"],
 	"description_file": "property-overflow.md",
 	"values": [
 		{

@@ -1,5 +1,6 @@
 {
 	"name": "hangingPunctuation",
+	"text_scope": ["line"],
 	"values": [
 		{
 			"value": "end"

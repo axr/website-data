@@ -1,5 +1,6 @@
 {
 	"name": "direction",
+	"text_scope": ["line", "word"],
 	"values": [
 		{
 			"value": "btt"

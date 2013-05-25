@@ -1,5 +1,6 @@
 {
 	"name": "width",
+	"text_scope": ["line"],
 	"values": [
 		{
 			"value": "<number>"

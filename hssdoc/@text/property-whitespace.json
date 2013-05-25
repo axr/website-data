@@ -1,5 +1,6 @@
 {
 	"name": "whitespace",
+	"text_scope": ["line"],
 	"values": [
 		{
 			"value": "collapse",
