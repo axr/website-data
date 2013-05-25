@@ -48,3 +48,7 @@ deploying will be as easy as:
 This will merge develop into master and create a signed commit. In order for the
 automatic deployment to work, your GPG key must be signed by our deployment
 key (87B4122D).
+
+## Links
+
+- [Setting up and using the development environment](/website/development-environment)
