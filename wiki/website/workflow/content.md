@@ -4,7 +4,8 @@ code.
 
 Here are some basic rules:
 
-- Never use fast-forward merge. This can be done by supplying the `--no-ff` flag
+- Never use fast-forward merge when merging into a master or when merging from
+  a feature branch. This can be done by supplying the `--no-ff` flag.
   when merging
 - Use `Close #<issue number>` in the commit message to automagically close the
   issue
