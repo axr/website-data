@@ -1,4 +1,5 @@
 {
 	"type": "page",
-	"title": "Tutorial 2: The basics of HSS"
+	"title": "Tutorial 2: The basics of HSS",
+	"generate_toc": true
 }
