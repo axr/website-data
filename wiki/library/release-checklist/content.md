@@ -1,6 +1,6 @@
 - <del>regression tests</del>
 - verify that all resolved issues are closed
-- [roadmap](https://github.com/axr/website-data/blob/master/wiki/roadmap/content.md): strike what's been implemented
+- strike what's been implemented in the [roadmap](/roadmap)
 - update the specification and documentation accordingly
 - update the [changelog](https://github.com/axr/core/blob/develop/CHANGELOG.md)
 - create a tag in Git
