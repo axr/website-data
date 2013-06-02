@@ -54,13 +54,13 @@
 		<tr>
 			<td>RIM BlackBerry</td>
 			<td>blackberry</td>
-			<td>?</td>
+			<td>bar</td>
 			<td>10+ <sup>4</sup></td>
 		</tr>
 		<tr>
 			<td>Windows Phone</td>
 			<td>windowsphone</td>
-			<td>?</td>
+			<td>appx</td>
 			<td>8+ <sup>5</sup></td>
 		</tr>
 	</tbody>
