@@ -54,13 +54,13 @@
 		<tr>
 			<td>RIM BlackBerry</td>
 			<td>blackberry</td>
-			<td>bar</td>
+			<td>?</td>
 			<td>10+ <sup>4</sup></td>
 		</tr>
 		<tr>
 			<td>Windows Phone</td>
 			<td>windowsphone</td>
-			<td>appx</td>
+			<td>?</td>
 			<td>8+ <sup>5</sup></td>
 		</tr>
 	</tbody>
@@ -84,11 +84,15 @@ native SDK. However there is one possibility: C++ -> LLVM -> C#. Versions 6
 and below do allow C++ development but their market share is irrelevant at
 his point.
 
+## Package names
+
+This section has not been written yet.
+
 ## File naming rules
 
 AXR binary intaller filenames should be named as follows:
 
-	axr-<version>-<platform>-<architecture>.<extension>
+	<package_name>-<version>-<platform>-<architecture>.<extension>
 
 Note: Linux distributions that use a platform's native package management system
 must drop `-<platform>` from the filename string.

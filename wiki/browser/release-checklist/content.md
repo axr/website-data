@@ -1,0 +1,8 @@
+- verify that all resolved issues are closed
+- update the [changelog](https://github.com/axr/browser/blob/develop/CHANGELOG.md)
+- create a tag in Git
+- create and upload packages
+- publish a blog post
+- post on the mailing list (link to the blog post)
+- tweet about it (link to the website)
+- IRC: someone's ready to answer newcomers' questions
