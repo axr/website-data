@@ -7,7 +7,7 @@
   - transform
   - tracking
   - tab
-  - alignX: left | right | center | justify | <number>;
+  - alignX: left | right | center | justify | &lt;number&gt;;
   - indent
   - wordSpacing
 - @font
