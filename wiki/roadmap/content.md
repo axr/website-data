@@ -36,7 +36,6 @@
 - grouping brackets
 - :is() and :oneIs()
 - Advanced text module 2/2
-- Advanced text styling module 2/2
 - #support 3/3
 - Initial JS support
 - Transformations (affine: translate, rotate, scale, skew/shear; perspective)
@@ -82,7 +81,6 @@
 - count property
 - #support 2/3
 - Advanced text module 1/2
-- Advanced text styling module 1/2
 
 ### 0.5.1
 
@@ -93,8 +91,7 @@
 - /type
 - /each 1/2
 - > combinator
-- [Basic text module](http://wiki.axrproject.org/specification/modules#text)
-- [Basic text styling module](http://wiki.axrproject.org/specification/modules#text-styling)
+- [Basic text module](http://wiki.axrproject.org/ressources/modules#basic)
 - @font read-only properties
 
 ### 0.5.0
