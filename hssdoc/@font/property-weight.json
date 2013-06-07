@@ -2,7 +2,8 @@
 	"name": "weight",
 	"values": [
 		{
-			"value": "<keyword>"
+			"value": "<keyword>",
+			"since_version": "0.3"
 		},
 		{
 			"value": "<weight class>"

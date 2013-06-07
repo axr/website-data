@@ -3,7 +3,8 @@
 	"many_values": true,
 	"values": [
 		{
-			"value": "<string>"
+			"value": "<string>",
+			"since_version": "0.4.9"
 		}
 	]
 }

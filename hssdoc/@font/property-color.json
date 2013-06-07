@@ -2,10 +2,16 @@
 	"name": "color",
 	"values": [
 		{
-			"value": "#RRGGBBAA"
+			"value": "#RRGGBBAA",
+			"since_version": "0.4.8"
 		},
 		{
-			"value": "@rgb"
+			"value": "<object name>",
+			"since_version": "0.4.3"
+		},
+		{
+			"value": "@rgb",
+			"since_version": "0.4.2"
 		},
 		{
 			"value": "@cmyk"
