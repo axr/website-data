@@ -3,13 +3,16 @@
 	"many_values": true,
 	"values": [
 		{
-			"value": "<number>"
+			"value": "<number>",
+			"since_version": "0.4.8"
 		},
 		{
-			"value": "@margin"
+			"value": "@margin",
+			"since_version": "0.4.8"
 		},
 		{
 			"value": "no",
+			"since_version": "0.4.8",
 			"is_default": true
 		}
 	]
