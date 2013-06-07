@@ -7,7 +7,7 @@
 
 - Animations
 - Transitions
-- Layer effects (glow, blur, shadow)
+- Layer effects (blur, shadow/glow)
 - Alternate color models (CMYK, HSL, HSV)
 - DOM
 - @video
@@ -23,6 +23,10 @@
 - :length()
 - Regex selector and :match() filter
 - Contour gradient
+- sandbox property
+- missing permanent properties:
+  - dpi and dpcm
+  - orientation and ratio
 
 ## Version 0.6
 
@@ -91,7 +95,7 @@
 - /type
 - /each 1/2
 - > combinator
-- [Basic text module](http://wiki.axrproject.org/ressources/modules#basic)
+- [Basic text module](http://wiki.axrproject.org/resources/modules#basic)
 - @font read-only properties
 
 ### 0.5.0
