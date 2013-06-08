@@ -84,33 +84,99 @@ native SDK. However there is one possibility: C++ -> LLVM -> C#. Versions 6
 and below do allow C++ development but their market share is irrelevant at
 his point.
 
+
 ## Package names
 
-This section has not been written yet.
+A table explaining different package names under different platforms.
 
-## File naming rules
+<table>
+	<thead>
+		<tr>
+			<th>OS</th>
+			<th>Browser</th>
+			<th>Library</th>
+			<th>Headers</th>
+			<th>Documentation</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Microsoft Windows (msi / exe)</td>
+			<td>axr-browser</td>
+			<td>axr-runtime</td>
+			<td>-</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>OSX (dmg)</td>
+			<td>axr-browser</td>
+			<td colspan="3">axr-runtime</td>
+		</tr>
+		<tr>
+			<td>Debian (deb)</td>
+			<td>axr-browser</td>
+			<td>libaxr</td>
+			<td>libaxr-dev</td>
+			<td>libaxr-doc</td>
+		</tr>
+		<tr>
+			<td>(rpm)</td>
+			<td>axr-browser</td>
+			<td>axr</td>
+			<td>libaxr-devel</td>
+			<td>libaxr-doc</td>
+		</tr>
+		<tr>
+			<td>Linux (tar.gz)</td>
+			<td>axr-browser</td>
+			<td colspan="3">libaxr</td>
+		</tr>
+		<tr>
+			<td>Source (tar.gz / zip)</td>
+			<td>axr-browser</td>
+			<td colspan="2">libaxr</td>
+			<td>-</td>
+		</tr>
+	</tbody>
+</table>
 
-AXR binary intaller filenames should be named as follows:
 
-	<package_name>-<version>-<platform>-<architecture>.<extension>
+## File names
 
-Note: Linux distributions that use a platform's native package management system
-must drop `-<platform>` from the filename string.
+### deb
 
-The keywords highlighted in bold should be replaced as follows:
+	<package>_<version>_<architecture>.deb
 
-### version
+Allowed `<architecture>` values: `i386`, `amd64`, `all`.
 
-The semantic version number of the release.
+### rpm
 
-### platform
+	<package>-<version>-<n>-<architecture>.rpm
 
-Refer to the identifier column of the platform table.
+Allowed `<architecture>` values: `i686`, `x86_64`, `noarch`.
 
-### architecture
+### tar.gz / zip
 
-Refer to the architectures column of the platform table.
+	<package>-<version>(-<platform>)-<architecture>.tar.gz
+	<package>-<version>(-<platform>)-<architecture>.zip
 
-### extension
+Allowed `<architecture>` values: `i386`, `x86_64`, `src`.
 
-Refer to the extension column of the platform table.
+Architecture `src` means that this is a source package. For source packages you
+must not specify a platform.
+
+### dmg
+
+	<package>-<version>-<platform>-<architecture>.dmg
+
+Allowed `<architecture>` values: `i386`, `x86_64`, `intel`
+
+Allowed `<platform>` values: `osx`, `ios`.
+
+
+### exe / msi
+
+	<package>-<version>-windows-<architecture>.msi
+	<package>-<version>-windows-<architecture>.exe
+
+Allowed `<architecture>` values: `x86`, `x86_64`.
