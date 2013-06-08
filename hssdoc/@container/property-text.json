@@ -4,6 +4,10 @@
 		{
 			"value": "@text",
 			"is_default": true
+		},
+		{
+			"value": "<string>",
+			"link_to": "@text<value>[<string>]"
 		}
 	]
 }
