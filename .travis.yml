@@ -1,4 +1,5 @@
 script: util/travis.sh
+after_success: util/travis_success.sh
 branches:
   only:
     - master
