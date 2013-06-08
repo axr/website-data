@@ -1,3 +1,7 @@
+The meetings category contains our meetings' topics and summaries. You can
+access the list of previous and upcoming meetings by
+[clicking here](/index/meetings).
+
 ## Topic suggestions
 
 This is a general list of topic suggestions. Each of these will eventually be
