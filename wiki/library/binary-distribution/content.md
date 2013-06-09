@@ -157,13 +157,13 @@ Allowed `<architecture>` values: `i686`, `x86_64`, `noarch`.
 
 ### tar.gz / zip
 
-	<package>-<version>(-<platform>)-<architecture>.tar.gz
-	<package>-<version>(-<platform>)-<architecture>.zip
+	<package>-<version>-<platform>(-<architecture>).tar.gz
+	<package>-<version>-<platform>(-<architecture>).zip
 
-Allowed `<architecture>` values: `i386`, `x86_64`, `src`.
+Allowed `<architecture>` values: `i386`, `x86_64`.
 
-Architecture `src` means that this is a source package. For source packages you
-must not specify a platform.
+Platform `src` means that this is a source package. For source packages you
+must not specify an architecture.
 
 ### dmg
 
