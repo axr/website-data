@@ -179,4 +179,4 @@ Allowed `<platform>` values: `osx`, `ios`.
 	<package>-<version>-windows-<architecture>.msi
 	<package>-<version>-windows-<architecture>.exe
 
-Allowed `<architecture>` values: `x86`, `x86_64`.
+Allowed `<architecture>` values: `x86`, `x64`.
