@@ -1,6 +1,5 @@
 {
 	"name": "width",
-	"description_file": "property-width.md",
 	"values": [
 		{
 			"value": "content"
