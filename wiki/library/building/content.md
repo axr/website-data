@@ -17,6 +17,13 @@ Optional dependencies include:
 
 - SDL (for building examples)
 
+### Cloning the repository
+
+All the source files are hosted on a GitHub repository. You can clone it using
+the following command:
+
+	git clone https://github.com/axr/core.git
+
 ### Windows
 
 Visual Studio 9 (2008) or later, or MinGW. Express editions of Visual Studio
