@@ -1,0 +1,13 @@
+{
+	"name": "border",
+	"text_scope": ["line", "word", "character"],
+	"values": [
+		{
+			"value": "no",
+			"is_default": true
+		},
+		{
+			"value": "@stroke"
+		}
+	]
+}

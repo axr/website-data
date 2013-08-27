@@ -1,6 +1,5 @@
 {
-	"name": "stretch",
-	"many_values": true,
+	"name": "width",
 	"values": [
 		{
 			"value": "<keyword>"

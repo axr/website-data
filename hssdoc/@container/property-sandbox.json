@@ -1,0 +1,11 @@
+{
+	"name": "sandbox",
+	"values": [
+		{
+			"value": "no"
+		},
+		{
+			"value": "yes"
+		}
+	]
+}
