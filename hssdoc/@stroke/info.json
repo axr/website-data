@@ -1,4 +1,4 @@
 {
 	"name": "@stroke",
-	"description_file": "description.md"
+	"shorthand_stack": ["color", "size", "segments", "position", "style", "offset"]
 }

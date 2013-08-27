@@ -1,4 +1,4 @@
 {
 	"name": "@line",
-	"description_file": "description.md"
+	"shorthand_stack": ["style", "type", "color", "size", "shiftX", "shiftY"]
 }
