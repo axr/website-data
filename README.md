@@ -153,6 +153,7 @@ the @text object.
 		owner: (string) name of the object. for example: `@container`. this
 			field is optional,
 		description_file: (string) name of the content file. this field is optional
+		shorthand_stack: (array) properties in order [this field is optional]
 	}
 
 
