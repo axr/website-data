@@ -2,7 +2,7 @@
 	"name": "size",
 	"values": [
 		{
-			"value": "ℕ",
+			"value": "<number>",
 			"since_version": "0.4.2"
 		}
 	]

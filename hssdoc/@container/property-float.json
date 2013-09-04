@@ -1,0 +1,12 @@
+{
+	"name": "float",
+	"values": [
+		{
+			"value": "yes"
+		},
+		{
+			"value": "no",
+			"is_default": true
+		}
+	]
+}
