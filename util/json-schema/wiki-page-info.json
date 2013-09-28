@@ -3,13 +3,18 @@
 	"additionalProperties": false,
 	"properties": {
 		"title": {
+			"description": "Title of the page",
 			"type": "string",
 			"required": true
 		},
 		"file": {
+			"description": "The file that contains the content of this page",
+			"default": "content.md",
 			"type": "string"
 		},
 		"generate_toc": {
+			"description": "Generate a table of contents?",
+			"default": false,
 			"type": "boolean"
 		}
 	}

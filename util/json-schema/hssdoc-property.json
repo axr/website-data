@@ -3,16 +3,20 @@
 	"additionalProperties": false,
 	"properties": {
 		"name": {
+			"description": "Name of the property",
 			"type": "string",
 			"required": true
 		},
 		"readonly": {
+			"default": false,
 			"type": "boolean"
 		},
 		"permanent": {
+			"default": false,
 			"type": "boolean"
 		},
 		"many_values": {
+			"default": false,
 			"type": "boolean"
 		},
 		"description_file": {
@@ -29,6 +33,8 @@
 						"required": true
 					},
 					"is_default": {
+						"description": "Is it the default value?",
+						"default": false,
 						"type": "boolean"
 					},
 					"since_version": {
@@ -43,6 +49,7 @@
 			}
 		},
 		"text_scope": {
+			"description": "This property is available only for properties of @text",
 			"type": "array",
 			"additionalItems": false,
 			"items": {

@@ -4,15 +4,18 @@
 	"properties":
 	{
 		"name": {
+			"description": "Name of the object, including the @",
 			"type": "string",
 			"pattern": "^@\\w+$",
 			"required": true
 		},
 		"owner": {
+			"description": "Name of the owner, including the @",
 			"type": "string",
 			"pattern": "^@\\w+$"
 		},
 		"description_file": {
+			"description": "The file that contains the object's description",
 			"type": "string"
 		},
 		"shorthand_stack": {
