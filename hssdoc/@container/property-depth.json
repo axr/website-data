@@ -1,5 +1,10 @@
 {
 	"name": "depth",
 	"readonly": true,
-	"description_file": "property-depth.md"
+	"description_file": "property-depth.md",
+	"values": [
+		{
+			"value": "ℕ"
+		}
+	]
 }

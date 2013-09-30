@@ -1,5 +1,10 @@
 {
 	"name": "innerHeight",
 	"readonly": true,
-	"description_file": "property-innerHeight.md"
+	"description_file": "property-innerHeight.md",
+	"values": [
+		{
+			"value": "<number>"
+		}
+	]
 }

@@ -2,5 +2,10 @@
 	"name": "outerWidth",
 	"readonly": true,
 	"permanent": true,
-	"description_file": "property-outerWidth.md"
+	"description_file": "property-outerWidth.md",
+	"values": [
+		{
+			"value": "<number>"
+		}
+	]
 }

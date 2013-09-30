@@ -1,5 +1,10 @@
 {
 	"name": "dpcm",
 	"readonly": true,
-	"permanent": true
+	"permanent": true,
+	"values": [
+		{
+			"value": "<number>"
+		}
+	]
 }

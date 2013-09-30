@@ -1,5 +1,10 @@
 {
 	"name": "dpi",
 	"readonly": true,
-	"permanent": true
+	"permanent": true,
+	"values": [
+		{
+			"value": "<number>"
+		}
+	]
 }

@@ -1,5 +1,13 @@
 {
 	"name": "overflows",
 	"readonly": true,
-	"description_file": "property-overflow.md"
+	"description_file": "property-overflow.md",
+	"values": [
+		{
+			"value": "yes"
+		},
+		{
+			"value": "no"
+		}
+	]
 }

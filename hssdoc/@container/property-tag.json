@@ -1,5 +1,10 @@
 {
 	"name": "tag",
 	"readonly": true,
-	"description_file": "property-tag.md"
+	"description_file": "property-tag.md",
+	"values": [
+		{
+			"value": "<string>"
+		}
+	]
 }

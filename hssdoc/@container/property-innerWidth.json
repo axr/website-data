@@ -1,5 +1,10 @@
 {
 	"name": "innerWidth",
 	"readonly": true,
-	"description_file": "property-innerWidth.md"
+	"description_file": "property-innerWidth.md",
+	"values": [
+		{
+			"value": "<number>"
+		}
+	]
 }

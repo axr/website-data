@@ -2,5 +2,10 @@
 	"name": "outerHeight",
 	"readonly": true,
 	"permanent": true,
-	"description_file": "property-outerHeight.md"
+	"description_file": "property-outerHeight.md",
+	"values": [
+		{
+			"value": "<number>"
+		}
+	]
 }

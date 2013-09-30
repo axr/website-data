@@ -1,5 +1,13 @@
 {
 	"name": "orientation",
 	"readonly": true,
-	"permanent": true
+	"permanent": true,
+	"values": [
+		{
+			"value": "portrait"
+		},
+		{
+			"value": "landscape"
+		}
+	]
 }
