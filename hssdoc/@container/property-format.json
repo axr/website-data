@@ -1,13 +1,16 @@
 {
-	"name": "orientation",
+	"name": "format",
 	"readonly": true,
 	"permanent": true,
 	"values": [
 		{
+			"value": "landscape"
+		},
+		{
 			"value": "portrait"
 		},
 		{
-			"value": "landscape"
+			"value": "square"
 		}
 	]
 }
