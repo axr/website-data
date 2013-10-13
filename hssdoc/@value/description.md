@@ -1,1 +1,0 @@
-Description for object @value

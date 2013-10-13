@@ -2,7 +2,8 @@
 	"name": "anchorY",
 	"values": [
 		{
-			"value": "<number>"
+			"value": "<number>",
+			"since_version": "0.4.9"
 		},
 		{
 			"value": "no",

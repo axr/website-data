@@ -1,0 +1,23 @@
+{
+	"name": "lineAlign",
+	"values": [
+		{
+			"value": "top"
+		},
+		{
+			"value": "bottom"
+		},
+		{
+			"value": "right"
+		},
+		{
+			"value": "left"
+		},
+		{
+			"value": "centerX"
+		},
+		{
+			"value": "centerY"
+		}
+	]
+}
