@@ -1,0 +1,9 @@
+{
+	"name": "height",
+	"readonly": true,
+	"values": [
+		{
+			"value": "<number>"
+		}
+	]
+}

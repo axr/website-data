@@ -1,0 +1,9 @@
+{
+	"name": "width",
+	"readonly": true,
+	"values": [
+		{
+			"value": "<number>"
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"name": "icon",
+	"many_values": true,
+	"values": [
+		{
+			"value": "<string>"
+		}
+	]
+}
