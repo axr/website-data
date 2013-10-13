@@ -70,7 +70,7 @@
 
 - ::select
 - selectable property
-- shiftX and shiftY properties
+- lineAlign property
 - Patterns
 - round(), ceil() and floor()
 - max(), min() and bound()
@@ -91,7 +91,7 @@
 - :[]
 - :empty 2/2
 - attr property
-- custom properties
+- shiftX and shiftY properties
 - /type
 - /each 1/2
 - > combinator
@@ -123,6 +123,7 @@
 ### 0.4.9
 
 - Radial gradient 1/2
+- <del>custom properties</del>
 - <del>property grouping</del>
 - anchorX and anchorY properties
 - <del>@container wrapDirection</del>
