@@ -26,13 +26,14 @@
 - sandbox property
 - missing permanent properties:
   - dpi and dpcm
-  - orientation and ratio
+  - format and ratio
 
 ## Version 0.6
 
 - ancestor combinator
 - z property
 - mask property
+- float property
 - /attr()
 - :has() and $
 - ::drag and ::target()
