@@ -6,8 +6,7 @@
 			"value": "@attribute"
 		},
 		{
-			"value": "no",
-			"is_default": true
+			"value": "no"
 		}
 	]
 }
