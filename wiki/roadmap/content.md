@@ -118,12 +118,12 @@
 - #support 1/3
 - ref() modifiers
 - #wrap
-- dot notation
 - break property
 
 ### 0.4.9
 
 - Radial gradient 1/2
+- dot notation
 - <del>custom properties</del>
 - <del>property grouping</del>
 - anchorX and anchorY properties
