@@ -1,5 +1,4 @@
 script: util/travis.sh
-after_success: util/travis_success.sh
 branches:
   only:
     - master
@@ -9,3 +8,9 @@ notifications:
   email:
     on_success: change
     on_failure: always
+  webhooks:
+    urls:
+      - http://deploy.axrproject.org/data.php
+    on_success: always
+    on_failure: never
+    on_start: false
