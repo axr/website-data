@@ -8,27 +8,27 @@
     <tbody>
     <tr>
         <td>hairline</td>
-        <td>50</td> 
+        <td>50</td>
     </tr>
     <tr>
         <td>thin</td>
-        <td>100</td> 
+        <td>100</td>
     </tr>
     <tr>
         <td>ultralight</td>
-        <td>150</td> 
+        <td>150</td>
     </tr>
     <tr>
         <td>extralight</td>
-        <td>200</td> 
+        <td>200</td>
     </tr>
     <tr>
         <td>light</td>
-        <td>300</td> 
+        <td>300</td>
     </tr>
     <tr>
         <td>book</td>
-        <td>350</td> 
+        <td>350</td>
     </tr>
     <tr>
         <td>normal</td>
