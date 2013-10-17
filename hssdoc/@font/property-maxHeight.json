@@ -1,5 +1,10 @@
 {
 	"name": "maxHeight",
 	"description_file": "property-maxHeight.md",
-	"readonly": true
+	"readonly": true,
+	"values": [
+		{
+			"value": "<number>"
+		}
+	]
 }

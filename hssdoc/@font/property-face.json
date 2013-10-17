@@ -1,5 +1,10 @@
 {
 	"name": "face",
 	"description_file": "property-face.md",
-	"readonly": true
+	"readonly": true,
+	"values": [
+		{
+			"value": "<string>"
+		}
+	]
 }

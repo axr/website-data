@@ -5,11 +5,11 @@
 			"value": "italic"
 		},
 		{
-			"value": "no",
-			"is_default": true
+			"value": "oblique"
 		},
 		{
-			"value": "oblique"
+			"value": "no",
+			"is_default": true
 		}
 	]
 }

@@ -1,5 +1,6 @@
 {
 	"name": "weight",
+	"description_file": "property-weight.md",
 	"values": [
 		{
 			"value": "<keyword>",

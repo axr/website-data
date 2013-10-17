@@ -1,5 +1,10 @@
 {
 	"name": "ex",
 	"description_file": "property-ex.md",
-	"readonly": true
+	"readonly": true,
+	"values": [
+		{
+			"value": "<number>"
+		}
+	]
 }

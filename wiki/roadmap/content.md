@@ -15,7 +15,7 @@
 ## Version 0.7
 
 - | combinator
-- Property filters
+- property filter 2/2
 - type property
 - overflows property
 - Custom macros
@@ -107,7 +107,7 @@
 - focusable, next and previous properties
 - innerHeight, innerWidth, outerHeight, outerWidth
 - @image
-- object filter
+- property filter 1/2
 - #new long form
 
 ## Version 0.4 (current)
