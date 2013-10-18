@@ -9,6 +9,18 @@
 		},
 		{
 			"value": "@line"
-		}
+		},
+                {
+                        "value": "strike",
+                        "link_to": "@line<type>[strike]"
+                },
+                {
+                        "value": "underline",
+                        "link_to": "@line<type>[underline]"
+                },
+                {
+                        "value": "overline",
+                        "link_to": "@line<type>[overline]"
+                }
 	]
 }
