@@ -7,6 +7,7 @@
 		},
 		{
 			"value": "<string>",
+			"since_version": "0.4.9",
 			"link_to": "@text<value>[<string>]"
 		}
 	]
