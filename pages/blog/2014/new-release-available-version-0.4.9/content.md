@@ -41,45 +41,45 @@ examples how you can use it.
 This will make the color, which was defined as opaque, be semitransparent on the
 `foo` element:
 
-        // language=hss
-        #ACE myColor;
-        foo
-        {
-            background: myColor;
-            background.alpha: 50%;
-        }
+    // language=hss
+    #ACE myColor;
+    foo
+    {
+        background: myColor;
+        background.alpha: 50%;
+    }
 
 Here you can see a more advanced, version, where a container object is applied
 via the `isA` property, and then the alpha property of the end color of the
 gradient is changed:
 
-        // language-hss
-        @container myPreset {
-            background: @linearGradient {
-                startColor: #ACE;
-                endColor: #8AC;
-                endY: 100%;
-            }
+    // language-hss
+    @container myPreset {
+        background: @linearGradient {
+            startColor: #ACE;
+            endColor: #8AC;
+            endY: 100%;
         }
-        foo
-        {
-            isA: myPreset;
-            background.endColor.alpha: 100%;
-        }
+    }
+    foo
+    {
+        isA: myPreset;
+        background.endColor.alpha: 100%;
+    }
 
 And finally, here we dig into the properties of a value object to get the value
 we want:
 
-        // language-hss
-        foo
-        {
-            data: @value {
-                propertyA: 100;
-                propertyB: 200;
-                propertyC: 300;
-            };
-            amount: ref(data.propertyB of @this); //will contain 200
-        }
+    // language-hss
+    foo
+    {
+        data: @value {
+            propertyA: 100;
+            propertyB: 200;
+            propertyC: 300;
+        };
+        amount: ref(data.propertyB of @this); //will contain 200
+    }
 
 
 What's coming
