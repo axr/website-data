@@ -28,7 +28,7 @@ that instead of targeting the root element with its name, we are using the
 universal selector, the star `*`. Open the `/basics.xml` file with the prototype
 and you should see something like the following:
 
-![The whole window is filled with gray, plus some basic text](2001.jpg)
+![The whole window is filled with gray, plus some basic text](2001.png)
 
 ### Scope and nesting
 
@@ -65,7 +65,7 @@ Change your `/basics.hss` file to look like this:
 
 Reload the file and you should see something like this:
 
-![The children are squares and placed next to each other](2002.jpg)
+![The children are squares and placed next to each other](2002.png)
 
 Here's what we added:
 
@@ -111,22 +111,22 @@ tall as their content when left to their default values.
 Let's experiment a bit: Change the width to 50%. Now your document should look
 like this:
 
-![The columns take up the entire width of the window](2003.jpg)
+![The columns take up the entire width of the window](2003.png)
 
 Now we want to make them as tall as the window, so we set the height to 100%.
 
-![The columns take up the entire height of the window](2004.jpg)
+![The columns take up the entire height of the window](2004.png)
 
 Maybe not completely as tall as the window. Make it 100% - 30. If you resize the
 window you'll see that the empty space at the top and bottom will always be 15
 points each.
 
-![There is a 15 points gap at the top and at the bottom](2005.jpg)
+![There is a 15 points gap at the top and at the bottom](2005.png)
 
 Just to brag, now, we're going to take it a bit to extreme! Make the width
 `(100% - (10% + 5))/2`:
 
-![It works! - There is now a gap at each side, too.](2006.jpg)
+![It works! - There is now a gap at each side, too.](2006.png)
 
 OK, this is probably overdoing it :) But this is just to show that you can use
 more complicated expressions without problems.
@@ -142,11 +142,11 @@ automatically converted to `50%`.
 
 If we change the `alignY` to `top` or `0`, you'll see it sticks to the top:
 
-![The elements are top aligned](2007.jpg)
+![The elements are top aligned](2007.png)
 
 If we set it to `bottom` or `100%`, it will go to the bottom:
 
-![The elements are bottom aligned](2008.jpg)
+![The elements are bottom aligned](2008.png)
 
 Intermediate values are possible, as well, of course. Apart from the keywords,
 you can use percentages and plain numbers. Percentages refer to the inner

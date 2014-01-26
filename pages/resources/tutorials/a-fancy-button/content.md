@@ -22,7 +22,7 @@ As a reminder, we are targeting the root element with the universal selector
 `*`, and since at the base level only this one is in scope, it will be the only
 element selected. You'll see the document with a gray background:
 
-![The starting point: basic text with gray background](3001.jpg)
+![The starting point: basic text with gray background](3001.png)
 
 ### Basic styling
 
@@ -50,7 +50,7 @@ Now, let's give the button some basic dimensions and some rudimentary styles:
 
 You'll see something like this:
 
-![The button is now yello and centered in the window](3002.jpg)
+![The button is now yello and centered in the window](3002.png)
 
 Let's go over the property definitions and see what they do. Here we are setting
 the basic dimensions of the element, and aligning it in the center of the page:
@@ -281,7 +281,7 @@ Now we just need to apply the gradient on top of the background color:
 
 We get something that looks like this:
 
-![The button is now glossy](3003.jpg)
+![The button is now glossy](3003.png)
 
 The full code is now:
 
@@ -341,7 +341,7 @@ object type and shorthand notation to cut it down. The following is equivalent:
 
 It will look like this:
 
-![With rounded corners](3004.jpg)
+![With rounded corners](3004.png)
 
 Now this still looks quite flat, let's add some strokes to create a bevel
 effect. First we define the colors:
@@ -364,7 +364,7 @@ Then, we define the strokes, directly on the `fancyButton` object definition:
 This adds to thin strokes to the inside of the shape. It will now look
 something like this:
 
-![Now with strokes, too](3005.jpg)
+![Now with strokes, too](3005.png)
 
 To add even more, let's make something that looks sort of like a drop
 shadow. Add one more stroke after the other two, this time to the outside
@@ -438,7 +438,7 @@ The entire code now looks like this:
 
 The result:
 
-![With a soft shadow effect](3006.jpg)
+![With a soft shadow effect](3006.png)
 
 ### Hover state
 
@@ -463,7 +463,7 @@ following after the rule that targets `link`:
 
 Now when you place your mouse cursor over the button, it will look like this:
 
-![On hover, a slightly brighter yellow](3007.jpg)
+![On hover, a slightly brighter yellow](3007.png)
 
 You may not be able to see the difference right here on the screenshot, but it
 is immediately visible when seeing it live.

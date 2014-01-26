@@ -58,7 +58,7 @@ it, write this:
 
 Done! Now, open it in the prototype, and you'll see something like this:
 
-![Prototype showing Hello world](1001.jpg)
+![Prototype showing Hello world](1001.png)
 
 Let's go over each line:
 
@@ -122,7 +122,7 @@ this:
 Go back to the prototype, hit refresh (cmd+R on the Mac, ctrl+R or F5 on Windows
 and Linux), and you should get something like this:
 
-![Prototype showing styled up Hello world](1002.jpg)
+![Prototype showing styled up Hello world](1002.png)
 
 Let's go over each part:
 
@@ -187,7 +187,7 @@ The entire file `/style.hss` now looks like this:
 
 If you reload in the prototype, you should get something like this:
 
-![Prototype showing the final Hello world example](1003.jpg)
+![Prototype showing the final Hello world example](1003.png)
 
 You can recognize a HSS object by the `@`, which is called the object sign. Its
 block contains property definitions, like normal rules do. In this concrete
