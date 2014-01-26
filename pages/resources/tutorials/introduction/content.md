@@ -83,12 +83,12 @@ that will determine how to find the stylesheet that will contain the
 instructions on how to represent the content of the XML file:
 
 	<?xml version="1.0" encoding="UTF-8"?>
-	<?xml-stylesheet href="style.hss" type="application/x-hss" version="0.4.8" ?>
+	<?xml-stylesheet href="style.hss" type="application/x-hss" version="0.4.9" ?>
 	<hello>Hello world</hello>
 
 Here's what we added:
 
-	<?xml-stylesheet href="style.hss" type="application/x-hss" version="0.4.8"?>
+	<?xml-stylesheet href="style.hss" type="application/x-hss" version="0.4.9"?>
 
 This line is a so called XML instruction, and the instruction name is
 `xml-stylesheet`. Its arguments, `href`, `type` and `version` can come in any
@@ -103,8 +103,9 @@ order.
   the future, this may end up being `application/hss` or even `text/hss`
 
 - Last, but not least, it is always required that you declare the `version` of
-the AXR platform that you are targeting. In case that the syntax changes in the
-future, backwards compatibility modules will be able to render old documents
+the AXR platform that you are targeting. You can find out what to put here by
+looking at the "About" dialog in the test browser. In case that the syntax changes
+in the future, backwards compatibility modules will be able to render old documents
 correctly, becaue they will know what you meant in the first place.
 
 Now, with your favorite text editor, create a new file `/style.hss`, and type

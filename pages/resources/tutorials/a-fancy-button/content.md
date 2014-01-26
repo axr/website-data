@@ -5,7 +5,7 @@ Let's start with some basic XML. Create a new file called `/fancy_button.xml`
 and then write this:
 
 	<?xml version="1.0" encoding="UTF-8" ?>
-	<?xml-stylesheet href="fancy_button.hss" type="application/x-hss" version="0.4.8" ?>
+	<?xml-stylesheet href="fancy_button.hss" type="application/x-hss" version="0.4.9" ?>
 	<document>
 		<link>Click me!</link>
 	</document>
@@ -325,7 +325,7 @@ The full code is now:
 ### More bells and whistles
 
 Alright, let's round it off: we're going to round those pointy corners
-and add borders to give it some volume.
+and add strokes to give it some volume.
 
 Add the following to the `fancyButton` object definition:
 
@@ -343,34 +343,34 @@ It will look like this:
 
 ![With rounded corners](3004.jpg)
 
-Now this still looks quite flat, let's add some borders to create a bevel
+Now this still looks quite flat, let's add some strokes to create a bevel
 effect. First we define the colors:
 
 	#FFFA buttonHighlightColor;
 	#D909 buttonShadowColor;
 
-Then, we define the borders, directly on the `fancyButton` object definition:
+Then, we define the strokes, directly on the `fancyButton` object definition:
 
-	border: @lineBorder {
+	stroke: @stroke {
 		size: 1;
 		color: buttonHighlightColor;
 		position: inside;
-	}, @lineBorder {
+	}, @stroke {
 		size: 1;
 		color: buttonShadowColor;
 		position: inside;
 	};
 
-This adds to thin borders to the inside of the shape. It will now look
+This adds to thin strokes to the inside of the shape. It will now look
 something like this:
 
-![Now with borders, too](3005.jpg)
+![Now with strokes, too](3005.jpg)
 
 To add even more, let's make something that looks sort of like a drop
-shadow. Add one more border after the other two, this time to the outside
+shadow. Add one more stroke after the other two, this time to the outside
 of the shape:
 
-	@lineBorder {
+	@stroke {
 		size: 10;
 		color: #00008;
 		position: outside;
@@ -405,17 +405,17 @@ The entire code now looks like this:
 		};
 		shape: @{ 10 };
 
-		border: @lineBorder {
+		stroke: @stroke {
 			size: 1;
 			color: buttonHighlightColor;
 			position: inside;
 
-		}, @lineBorder {
+		}, @stroke {
 			size: 1;
 			color: buttonShadowColor;
 			position: inside;
 
-		}, @lineBorder {
+		}, @stroke {
 			size: 10;
 			color: #00008;
 			position: outside;
@@ -542,17 +542,17 @@ The entire code now looks like this:
 		};
 		shape: @roundedRect { 10 };
 
-		border: @lineBorder {
+		stroke: @stroke {
 			size: 1;
 			color: buttonHighlightColor;
 			position: inside;
 
-		}, @lineBorder {
+		}, @stroke {
 			size: 1;
 			color: buttonShadowColor;
 			position: inside;
 
-		}, @lineBorder {
+		}, @stroke {
 			size: 10;
 			color: #00008;
 			position: outside;
@@ -646,17 +646,17 @@ The fully completed code looks like this:
 		};
 		shape: @roundedRect { 10 };
 
-		border: @lineBorder {
+		stroke: @stroke {
 			size: 1;
 			color: buttonHighlightColor;
 			position: inside;
 
-		}, @lineBorder {
+		}, @stroke {
 			size: 1;
 			color: buttonShadowColor;
 			position: inside;
 
-		}, @lineBorder {
+		}, @stroke {
 			size: 10;
 			color: #00008;
 			position: outside;

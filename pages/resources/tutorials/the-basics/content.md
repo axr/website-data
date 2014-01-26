@@ -56,7 +56,7 @@ Change your `/basics.hss` file to look like this:
 			contentAlignY: middle;
 			textAlign: center;
 			background: #0003;
-			border: @{
+			stroke: @{
 				size: 1;
 				color: #7;
 			};
@@ -78,7 +78,7 @@ Here's what we added:
 		contentAlignY: middle;
 		textAlign: center;
 		background: #0003;
-		border: @{
+		stroke: @{
 			size: 1;
 			color: #7;
 		};
@@ -202,25 +202,25 @@ compose a color:
 Therefore, we can conclude that what we are seeing is actually not gray, but
 black (`#000`), with the value `3` for transparency.
 
-Finally, the border:
+Finally, the stroke:
 
-	border: @{
+	stroke: @{
 		size: 1;
 		color: #7;
 	};
 
 See the `@` there? It indicates that what we are using is an HSS object. In this
 case, we have omitted the object type, because we are using the default type for
-the border property, which is `@lineBorder` (FIXME). Therefore, the following
+the stroke property, which is `@stroke`. Therefore, the following
 would be absolutely equivalent:
 
-	border: @lineBorder {
+	stroke: @stroke {
 		size: 1;
 		color: #7;
 	};
 
 But since it's quite redundant, and the default type fits our needs, we just
-skip it. Inside of the block, we are defining the border to be 1 unit wide and
+skip it. Inside of the block, we are defining the stroke to be 1 unit wide and
 of dark gray color.
 
 Experiment a bit with the properties we have learned in this section until you
