@@ -143,7 +143,7 @@ property, which exists on all objects:
 This way, `myFont2` will have all the properties of `myFont`, and additionally
 `size: 20`. You can also overwrite the ones you've previously inherited.
 
-### <a name="elements-are-objects-too"></a>Elements are objects, too
+### Elements are objects, too
 
 Now that we've come up to this point, you need to know that for each node in the
 XML tree that has been read, an HSS object of type `@container` will be created.
@@ -440,7 +440,7 @@ The result:
 
 ![With a soft shadow effect](3006.jpg)
 
-### <a name="hover-state"></a>Hover state
+### Hover state
 
 Each element stores so called "flags", that determine what state they're in.
 Think of them sort of like classes in CSS. They can be turned on and off at
