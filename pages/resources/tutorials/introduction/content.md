@@ -104,9 +104,10 @@ order.
 
 - Last, but not least, it is always required that you declare the `version` of
 the AXR platform that you are targeting. You can find out what to put here by
-looking at the "About" dialog in the test browser. In case that the syntax changes
-in the future, backwards compatibility modules will be able to render old documents
-correctly, becaue they will know what you meant in the first place.
+looking at the "About" dialog in the test browser. In case that the syntax
+changes in the future, backwards compatibility modules will be able to render
+old documents correctly, becaue they will know what you meant in the first
+place.
 
 Now, with your favorite text editor, create a new file `/style.hss`, and type
 this:
