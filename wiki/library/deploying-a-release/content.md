@@ -14,6 +14,8 @@ in the 'extras' repository, which will generate the necessary JSON files:
 The last step is to verify that all the generated JSON files are correct and
 then commit and push them.
 
+**Note:** The `generate-package-jsons.rb` script currently requires Ruby>=1.9
+
 ### Uploading the package files
 
 The package files go to:
