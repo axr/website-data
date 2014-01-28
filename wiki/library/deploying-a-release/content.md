@@ -25,3 +25,23 @@ The package files go to:
 You can also (partially) see this path in the generated JSON files:
 
 	http://files.axrproject.org/packages/<package-name>/<version>/<file-name>
+
+In order to send many files at one, first make sure that your files are
+structured like this:
+
+	packages
+	   |--- <package-name-1>
+	   |  \--- <version>
+	   |     |--- <file-1>
+	   |     |--- <file-2>
+	   |     \--- <file-3>
+	   |
+	   \--- <package-name-2>
+	      \--- <version>
+	         |--- <file-1>
+	         |--- <file-2>
+	         \--- <file-3>
+
+Then run
+
+	rsync -vcr packages/* 50.56.242.67:/var/dev/files/packages/
