@@ -11,6 +11,10 @@
 			"pattern": "^\\d+(\\.\\d+){0,3}$",
 			"required": true
 		},
+		"core_version": {
+			"type": "string",
+			"pattern": "^\\d+(\\.\\d+){0,3}$"
+		},
 		"files": {
 			"type": "array",
 			"required": true,
