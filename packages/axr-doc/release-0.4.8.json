@@ -4,7 +4,7 @@
 	"files": [
 		{
 			"os": "linux",
-			"arch": "noarch",
+			"arch": "none",
 			"type": "rpm",
 			"filename": "axr-doc-0.4.8-1.noarch.rpm",
 			"url": "http://files.axrproject.org/packages/axr-doc/0.4.8/axr-doc-0.4.8-1.noarch.rpm",

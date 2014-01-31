@@ -4,7 +4,7 @@
 	"files": [
 		{
 			"os": "linux",
-			"arch": "all",
+			"arch": "none",
 			"type": "deb",
 			"filename": "libaxr-doc_0.4.8_all.deb",
 			"url": "http://files.axrproject.org/packages/libaxr-doc/0.4.8/libaxr-doc_0.4.8_all.deb",
