@@ -4,19 +4,27 @@
 	"files": [
 		{
 			"os": "linux",
-			"arch": "i386",
-			"type": "deb",
-			"filename": "libaxr-dev_0.4.8_i386.deb",
-			"url": "http://files.axrproject.org/packages/libaxr-dev/0.4.8/libaxr-dev_0.4.8_i386.deb",
-			"size": 72704
-		},
-		{
-			"os": "linux",
 			"arch": "x86_64",
 			"type": "deb",
 			"filename": "libaxr-dev_0.4.8_amd64.deb",
 			"url": "http://files.axrproject.org/packages/libaxr-dev/0.4.8/libaxr-dev_0.4.8_amd64.deb",
-			"size": 71680
+			"size": 72606,
+			"checksums": {
+				"md5": "505b1f1cd69a39102c37baaf0699ee17",
+				"sha1": "d38192e49b9aa097288a1b6dd95b4ee247de82d1"
+			}
+		},
+		{
+			"os": "linux",
+			"arch": "i386",
+			"type": "deb",
+			"filename": "libaxr-dev_0.4.8_i386.deb",
+			"url": "http://files.axrproject.org/packages/libaxr-dev/0.4.8/libaxr-dev_0.4.8_i386.deb",
+			"size": 72780,
+			"checksums": {
+				"md5": "248d48b82f4966bda4caf52106e454de",
+				"sha1": "68ca104fb01092c0b1dc0155a3ee017ade46c146"
+			}
 		}
 	]
 }

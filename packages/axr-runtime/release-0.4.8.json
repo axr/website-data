@@ -8,7 +8,11 @@
 			"type": "exe",
 			"filename": "axr-runtime-0.4.8-windows-x86.exe",
 			"url": "http://files.axrproject.org/packages/axr-runtime/0.4.8/axr-runtime-0.4.8-windows-x86.exe",
-			"size": 628736
+			"size": 629160,
+			"checksums": {
+				"md5": "91c717e2e08c403c7256513178138bec",
+				"sha1": "78f89ec1fcbbbb7d44ae27b837674abd8ac4d1b0"
+			}
 		},
 		{
 			"os": "osx",

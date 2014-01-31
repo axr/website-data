@@ -8,7 +8,11 @@
 			"type": "rpm",
 			"filename": "axr-devel-0.4.8-1.i686.rpm",
 			"url": "http://files.axrproject.org/packages/axr-devel/0.4.8/axr-devel-0.4.8-1.i686.rpm",
-			"size": 70656
+			"size": 71385,
+			"checksums": {
+				"md5": "aa458edebc1ff73238ea03fac088cbc9",
+				"sha1": "252f761ddb04fbdf004a0dd59ccae5e9e385d611"
+			}
 		},
 		{
 			"os": "linux",
@@ -16,7 +20,11 @@
 			"type": "rpm",
 			"filename": "axr-devel-0.4.8-1.x86_64.rpm",
 			"url": "http://files.axrproject.org/packages/axr-devel/0.4.8/axr-devel-0.4.8-1.x86_64.rpm",
-			"size": 70656
+			"size": 71357,
+			"checksums": {
+				"md5": "15d74357045da7e0785690c326fa3903",
+				"sha1": "b5f1e46e61d834fffca57d7f7b3a81f3e4479522"
+			}
 		}
 	]
 }

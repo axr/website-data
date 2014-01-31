@@ -1,42 +1,53 @@
 {
 	"package": "axr-browser",
 	"version": "0.1.1",
-	"core_version": "0.4.9",
 	"files": [
+		{
+			"os": "linux",
+			"arch": "i386",
+			"type": "rpm",
+			"filename": "axr-browser-0.1.1-1.i686.rpm",
+			"url": "http://files.axrproject.org/packages/axr-browser/0.1.1/axr-browser-0.1.1-1.i686.rpm",
+			"size": 440905,
+			"checksums": {
+				"md5": "fb22893848b14f485e884e51fe52ce0c",
+				"sha1": "0acd9fca2cd29515c1a4a8530f1462961f569988"
+			}
+		},
+		{
+			"os": "linux",
+			"arch": "x86_64",
+			"type": "rpm",
+			"filename": "axr-browser-0.1.1-1.x86_64.rpm",
+			"url": "http://files.axrproject.org/packages/axr-browser/0.1.1/axr-browser-0.1.1-1.x86_64.rpm",
+			"size": 439913,
+			"checksums": {
+				"md5": "eff5500d3d2cabb41b309da536313727",
+				"sha1": "45c90e71fd394a1161c37be623bdb6a96a087e1d"
+			}
+		},
 		{
 			"os": "linux",
 			"arch": "i386",
 			"type": "tar.gz",
 			"filename": "axr-browser-0.1.1-linux-i386.tar.gz",
 			"url": "http://files.axrproject.org/packages/axr-browser/0.1.1/axr-browser-0.1.1-linux-i386.tar.gz",
-			"size": 1264615,
+			"size": 1269209,
 			"checksums": {
-				"md5": "38b0a9474061d20f080aec8cb7c257d6",
-				"sha1": "b72244430ad08f89e0765155358be58a899749ab"
-			}
-		},
-		{
-			"os": "windows",
-			"arch": "i386",
-			"type": "msi",
-			"filename": "axr-browser-0.1.1-windows-x86.msi",
-			"url": "http://files.axrproject.org/packages/axr-browser/0.1.1/axr-browser-0.1.1-windows-x86.msi",
-			"size": 8551029,
-			"checksums": {
-				"md5": "9ae3c000a2474224c2fe668d3e1700c3",
-				"sha1": "828e93c2663e292f283d260f01b56479305853b3"
+				"md5": "c304dc332fabc2bde917f440b24a903e",
+				"sha1": "c397c3b5b1bbb6fd9ffd521ef8911fe8980142e3"
 			}
 		},
 		{
 			"os": "linux",
-			"arch": "i386",
-			"type": "deb",
-			"filename": "axr-browser_0.1.1_i386.deb",
-			"url": "http://files.axrproject.org/packages/axr-browser/0.1.1/axr-browser_0.1.1_i386.deb",
-			"size": 451840,
+			"arch": "x86_64",
+			"type": "tar.gz",
+			"filename": "axr-browser-0.1.1-linux-x86_64.tar.gz",
+			"url": "http://files.axrproject.org/packages/axr-browser/0.1.1/axr-browser-0.1.1-linux-x86_64.tar.gz",
+			"size": 1249270,
 			"checksums": {
-				"md5": "fd926680ab3738a444b455b83462af64",
-				"sha1": "9533649bde11e3148642ee9a8e9be72b4b9a50f0"
+				"md5": "8326b1c6438b64adb46d51375f67cba6",
+				"sha1": "2f792cc99d3e739cfdf4ad19e21cbbfbdab483c9"
 			}
 		},
 		{
@@ -45,10 +56,70 @@
 			"type": "dmg",
 			"filename": "axr-browser-0.1.1-osx-x86_64.dmg",
 			"url": "http://files.axrproject.org/packages/axr-browser/0.1.1/axr-browser-0.1.1-osx-x86_64.dmg",
-			"size": 10126108,
+			"size": 9743622,
 			"checksums": {
-				"md5": "b277c2c85ac090d096b008889e43d4e9",
-				"sha1": "3e6a61d3eeb658bf52dd15c5a9284b51e67d5663"
+				"md5": "c2bcb7dc7dc6e8eae02c6cb75975358a",
+				"sha1": "9ff89391cff116ffbe93306ef515955931c2bec8"
+			}
+		},
+		{
+			"os": "src",
+			"arch": "none",
+			"type": "tar.gz",
+			"filename": "axr-browser-0.1.1-src.tar.gz",
+			"url": "http://files.axrproject.org/packages/axr-browser/0.1.1/axr-browser-0.1.1-src.tar.gz",
+			"size": 629724,
+			"checksums": {
+				"md5": "b2188f17344fe0c5630d338bf9f86487",
+				"sha1": "25a742ded483e658e09561cb5e04af1ebbfa6fab"
+			}
+		},
+		{
+			"os": "src",
+			"arch": "none",
+			"type": "zip",
+			"filename": "axr-browser-0.1.1-src.zip",
+			"url": "http://files.axrproject.org/packages/axr-browser/0.1.1/axr-browser-0.1.1-src.zip",
+			"size": 649774,
+			"checksums": {
+				"md5": "475c23d77af844427fd9cab9ef6de5fe",
+				"sha1": "0bfe34de171183c016c3a5dff9c55d2e6b9b3a73"
+			}
+		},
+		{
+			"os": "windows",
+			"arch": "i386",
+			"type": "msi",
+			"filename": "axr-browser-0.1.1-windows-x86.msi",
+			"url": "http://files.axrproject.org/packages/axr-browser/0.1.1/axr-browser-0.1.1-windows-x86.msi",
+			"size": 7744079,
+			"checksums": {
+				"md5": "970d82d222a33b9d4056a4f065819667",
+				"sha1": "638691184b27fd2dd798a2d8c19a72bbb57ae302"
+			}
+		},
+		{
+			"os": "linux",
+			"arch": "x86_64",
+			"type": "deb",
+			"filename": "axr-browser_0.1.1_amd64.deb",
+			"url": "http://files.axrproject.org/packages/axr-browser/0.1.1/axr-browser_0.1.1_amd64.deb",
+			"size": 450310,
+			"checksums": {
+				"md5": "058630cc515cbe4e800f388974cc6b66",
+				"sha1": "6f7946d626614830cc133ff3ff8f10a4ea3a9295"
+			}
+		},
+		{
+			"os": "linux",
+			"arch": "i386",
+			"type": "deb",
+			"filename": "axr-browser_0.1.1_i386.deb",
+			"url": "http://files.axrproject.org/packages/axr-browser/0.1.1/axr-browser_0.1.1_i386.deb",
+			"size": 451714,
+			"checksums": {
+				"md5": "9b8c1e67556c1e4d6e681c548505f925",
+				"sha1": "ca34f26bda40123c955e1579129fdd5c41f0117f"
 			}
 		}
 	]

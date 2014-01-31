@@ -1,0 +1,30 @@
+{
+	"package": "axr",
+	"version": "0.4.9",
+	"files": [
+		{
+			"os": "linux",
+			"arch": "i386",
+			"type": "rpm",
+			"filename": "axr-0.4.9-1.i686.rpm",
+			"url": "http://files.axrproject.org/packages/axr/0.4.9/axr-0.4.9-1.i686.rpm",
+			"size": 577145,
+			"checksums": {
+				"md5": "2bca502f78566887a7133503f12394b0",
+				"sha1": "9a6afeeaf9267acb3041ca41e4cefb874f907253"
+			}
+		},
+		{
+			"os": "linux",
+			"arch": "x86_64",
+			"type": "rpm",
+			"filename": "axr-0.4.9-1.x86_64.rpm",
+			"url": "http://files.axrproject.org/packages/axr/0.4.9/axr-0.4.9-1.x86_64.rpm",
+			"size": 553677,
+			"checksums": {
+				"md5": "14427b84555ec49ddcfd4dad3b34d863",
+				"sha1": "eae6c10370ec2fc0d16e06151bd5512b1f6b3719"
+			}
+		}
+	]
+}

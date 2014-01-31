@@ -1,0 +1,78 @@
+{
+	"package": "libaxr",
+	"version": "0.4.9",
+	"files": [
+		{
+			"os": "linux",
+			"arch": "i386",
+			"type": "tar.gz",
+			"filename": "libaxr-0.4.9-linux-i386.tar.gz",
+			"url": "http://files.axrproject.org/packages/libaxr/0.4.9/libaxr-0.4.9-linux-i386.tar.gz",
+			"size": 2657838,
+			"checksums": {
+				"md5": "dd8c1af378a85d044817644cd78eebc9",
+				"sha1": "9de0900503c90b54f7cde6f55546abe3beb917b0"
+			}
+		},
+		{
+			"os": "linux",
+			"arch": "x86_64",
+			"type": "tar.gz",
+			"filename": "libaxr-0.4.9-linux-x86_64.tar.gz",
+			"url": "http://files.axrproject.org/packages/libaxr/0.4.9/libaxr-0.4.9-linux-x86_64.tar.gz",
+			"size": 2633989,
+			"checksums": {
+				"md5": "1028a0950b0e98295c3540a47367e56f",
+				"sha1": "4e0a445b852c979ff354dc38fccd65f88ea3027d"
+			}
+		},
+		{
+			"os": "src",
+			"arch": "none",
+			"type": "tar.gz",
+			"filename": "libaxr-0.4.9-src.tar.gz",
+			"url": "http://files.axrproject.org/packages/libaxr/0.4.9/libaxr-0.4.9-src.tar.gz",
+			"size": 1951560,
+			"checksums": {
+				"md5": "26ee6b9e071f265e04cf49c12dca3d6b",
+				"sha1": "f52b838370052e9d319de08613204f4a737d9c66"
+			}
+		},
+		{
+			"os": "src",
+			"arch": "none",
+			"type": "zip",
+			"filename": "libaxr-0.4.9-src.zip",
+			"url": "http://files.axrproject.org/packages/libaxr/0.4.9/libaxr-0.4.9-src.zip",
+			"size": 2266194,
+			"checksums": {
+				"md5": "c5ae138f2d4fc5de23b38fbdbb4c63cc",
+				"sha1": "4b5ebe54574c8ef8774e77767f6f1921377e6150"
+			}
+		},
+		{
+			"os": "linux",
+			"arch": "x86_64",
+			"type": "deb",
+			"filename": "libaxr_0.4.9_amd64.deb",
+			"url": "http://files.axrproject.org/packages/libaxr/0.4.9/libaxr_0.4.9_amd64.deb",
+			"size": 715680,
+			"checksums": {
+				"md5": "5ab176a9e4a60662e49796b8de9a9ed1",
+				"sha1": "b1eae105aeb095f5e6bdea12711b8d9eb9a4b803"
+			}
+		},
+		{
+			"os": "linux",
+			"arch": "i386",
+			"type": "deb",
+			"filename": "libaxr_0.4.9_i386.deb",
+			"url": "http://files.axrproject.org/packages/libaxr/0.4.9/libaxr_0.4.9_i386.deb",
+			"size": 733008,
+			"checksums": {
+				"md5": "e238b4e24267cf3c46a0e931453893eb",
+				"sha1": "d6394c166a8062a8e0a69cfcedb4193e9b6ff56a"
+			}
+		}
+	]
+}

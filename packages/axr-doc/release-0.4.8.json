@@ -4,11 +4,15 @@
 	"files": [
 		{
 			"os": "linux",
-			"arch": "none",
+			"arch": "noarch",
 			"type": "rpm",
 			"filename": "axr-doc-0.4.8-1.noarch.rpm",
 			"url": "http://files.axrproject.org/packages/axr-doc/0.4.8/axr-doc-0.4.8-1.noarch.rpm",
-			"size": 649216
+			"size": 650177,
+			"checksums": {
+				"md5": "ae9a03e887f962ca22772ba7446804a8",
+				"sha1": "d62c8262947efa4a3920453b4cbc4053600b4745"
+			}
 		}
 	]
 }

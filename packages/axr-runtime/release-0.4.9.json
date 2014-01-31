@@ -1,0 +1,30 @@
+{
+	"package": "axr-runtime",
+	"version": "0.4.9",
+	"files": [
+		{
+			"os": "osx",
+			"arch": "x86_64",
+			"type": "dmg",
+			"filename": "axr-runtime-0.4.9-osx-x86_64.dmg",
+			"url": "http://files.axrproject.org/packages/axr-runtime/0.4.9/axr-runtime-0.4.9-osx-x86_64.dmg",
+			"size": 782626,
+			"checksums": {
+				"md5": "83f32fdf1d79cb6c7e1ab279596a1c29",
+				"sha1": "4d43fd57bc8dbbf322221f3a3e8b6af3b5f96555"
+			}
+		},
+		{
+			"os": "windows",
+			"arch": "i386",
+			"type": "msi",
+			"filename": "axr-runtime-0.4.9-windows-x86.msi",
+			"url": "http://files.axrproject.org/packages/axr-runtime/0.4.9/axr-runtime-0.4.9-windows-x86.msi",
+			"size": 2691645,
+			"checksums": {
+				"md5": "3b295251fa498e85d0039bcd7df24a8d",
+				"sha1": "d64f55d73900f5bb7080d1876b4a7e9956a42c77"
+			}
+		}
+	]
+}

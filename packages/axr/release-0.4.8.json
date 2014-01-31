@@ -8,7 +8,11 @@
 			"type": "rpm",
 			"filename": "axr-0.4.8-1.i686.rpm",
 			"url": "http://files.axrproject.org/packages/axr/0.4.8/axr-0.4.8-1.i686.rpm",
-			"size": 483328
+			"size": 484297,
+			"checksums": {
+				"md5": "96cfc999150bce50bc80a9ea579dace6",
+				"sha1": "c1915f11cd51e7de8537f966a72cbe0a6801445a"
+			}
 		},
 		{
 			"os": "linux",
@@ -16,7 +20,11 @@
 			"type": "rpm",
 			"filename": "axr-0.4.8-1.x86_64.rpm",
 			"url": "http://files.axrproject.org/packages/axr/0.4.8/axr-0.4.8-1.x86_64.rpm",
-			"size": 460800
+			"size": 461757,
+			"checksums": {
+				"md5": "cb4cb5fda1348af8db1c578a0a9c7dae",
+				"sha1": "8a06283d3211987edb2e5a297855ab92d99b5c94"
+			}
 		}
 	]
 }
