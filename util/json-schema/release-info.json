@@ -34,7 +34,7 @@
 					},
 					"type": {
 						"type": "string",
-						"enum": ["msi", "exe", "dmg", "deb", "rpm", "tar.gz"],
+						"enum": ["msi", "exe", "dmg", "deb", "rpm", "tar.gz", "zip"],
 						"required": true
 					},
 					"filename": {
