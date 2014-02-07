@@ -5,6 +5,7 @@ branches:
 notifications:
   recipients:
     - axr-ci@googlegroups.com
+    - ragnis.armus+axr@gmail.com
   email:
     on_success: change
     on_failure: always
