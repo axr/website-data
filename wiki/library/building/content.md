@@ -4,13 +4,13 @@ The list of system requirements for all platforms is:
 
 - CMake
 - Qt
-- Boost (Download Windows binaries)
 - Any C++ compiler (see below)
 
 Recommended dependencies include:
 
 - Git (for contributors to AXR itself)
 - Python 2.6+/3.x (for utility scripts)
+- Ruby 1.9.2+ (for utility scripts)
 - Doxygen (for building documentation)
 
 Optional dependencies include:
