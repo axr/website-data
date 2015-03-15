@@ -4,7 +4,7 @@ First, create a new directory (I'll call it `packages`) and put all of your
 package files in there.
 
 Now you need to run the `generate-package-jsons.rb` script that you'll find
-in the 'extras' repository, which will generate the necessary JSON files:
+in the 'common' repository, which will generate the necessary JSON files:
 
 	./generate-package-jsons.rb --input=packages --data=/path/to/data/repo
 
@@ -14,17 +14,13 @@ in the 'extras' repository, which will generate the necessary JSON files:
 The last step is to verify that all the generated JSON files are correct and
 then commit and push them.
 
-**Note:** The `generate-package-jsons.rb` script currently requires Ruby>=1.9
+**Note:** The `generate-package-jsons.rb` script currently requires Ruby>=1.8
 
 ### Uploading the package files
 
-The package files go to:
+The package files go on the server into:
 
-	50.56.242.67:/var/dev/files/packages/<package-name>/<version>/
-
-You can also (partially) see this path in the generated JSON files:
-
-	http://files.axrproject.org/packages/<package-name>/<version>/<file-name>
+	/var/dev/files/packages/<package-name>/<version>/
 
 In order to send many files at one, first make sure that your files are
 structured like this:
@@ -44,4 +40,4 @@ structured like this:
 
 Then run
 
-	rsync -vcr packages/* 50.56.242.67:/var/dev/files/packages/
+	rsync -vcr packages/* axrproject.org:/var/dev/files/packages/
